@@ -1,0 +1,193 @@
+[gd_scene format=3 uid="uid://bplqp7a3vt8tf"]
+
+[ext_resource type="Texture2D" uid="uid://dnft8pr3v1fye" path="res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_2/Idle.png" id="1_6ba58"]
+[ext_resource type="Texture2D" uid="uid://cljc6cxvsnpmu" path="res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/4/dead forest.png" id="1_fw4w5"]
+[ext_resource type="Script" uid="uid://cf2ucly6up5d6" path="res://scripts/jogador.gd" id="1_lgngo"]
+[ext_resource type="PackedScene" uid="uid://babnx28j20l8h" path="res://Assets/inimigo.tscn" id="2_5ckkb"]
+[ext_resource type="Texture2D" uid="uid://vhy85edalmxv" path="res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_2/Jump.png" id="4_aou4a"]
+[ext_resource type="Texture2D" uid="uid://sthx0libdpk8" path="res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_2/Run.png" id="5_5ckkb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lgngo"]
+atlas = ExtResource("1_6ba58")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fw4w5"]
+atlas = ExtResource("1_6ba58")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_otwa2"]
+atlas = ExtResource("1_6ba58")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aou4a"]
+atlas = ExtResource("1_6ba58")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2hh7m"]
+atlas = ExtResource("4_aou4a")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t8jxu"]
+atlas = ExtResource("4_aou4a")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pfhxm"]
+atlas = ExtResource("4_aou4a")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pij3u"]
+atlas = ExtResource("4_aou4a")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0oi55"]
+atlas = ExtResource("4_aou4a")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_57gmc"]
+atlas = ExtResource("4_aou4a")
+region = Rect2(640, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0crsg"]
+atlas = ExtResource("5_5ckkb")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5g5eo"]
+atlas = ExtResource("5_5ckkb")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lwdvv"]
+atlas = ExtResource("5_5ckkb")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qobow"]
+atlas = ExtResource("5_5ckkb")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_744hw"]
+atlas = ExtResource("5_5ckkb")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8wx08"]
+atlas = ExtResource("5_5ckkb")
+region = Rect2(640, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j2eq6"]
+atlas = ExtResource("5_5ckkb")
+region = Rect2(768, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5ckkb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lgngo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fw4w5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_otwa2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aou4a")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2hh7m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t8jxu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pfhxm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pij3u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0oi55")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_57gmc")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0crsg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5g5eo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lwdvv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qobow")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_744hw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8wx08")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j2eq6")
+}],
+"loop": true,
+"name": &"run",
+"speed": 8.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xwo6f"]
+radius = 30.0
+height = 94.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_otwa2"]
+size = Vector2(632, 30)
+
+[node name="Mundo" type="Node2D" unique_id=17495764]
+
+[node name="Fundo" type="Sprite2D" parent="." unique_id=55444330]
+position = Vector2(320, 160.49998)
+scale = Vector2(0.16614582, 0.14675924)
+texture = ExtResource("1_fw4w5")
+
+[node name="inimigo" parent="." unique_id=829725430 instance=ExtResource("2_5ckkb")]
+position = Vector2(125, 185)
+
+[node name="Jogador" type="CharacterBody2D" parent="." unique_id=1635673248]
+script = ExtResource("1_lgngo")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Jogador" unique_id=1431084063]
+position = Vector2(294.5, 193)
+sprite_frames = SubResource("SpriteFrames_5ckkb")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.8058846
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Jogador" unique_id=1602832609]
+position = Vector2(295, 211)
+shape = SubResource("CapsuleShape2D_xwo6f")
+
+[node name="Camera2D" type="Camera2D" parent="Jogador" unique_id=355496768]
+position = Vector2(291, 216)
+limit_left = 3
+limit_top = 2
+limit_right = 643
+limit_bottom = 322
+editor_draw_limits = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Jogador" unique_id=1442995022]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1040319740]
+position = Vector2(371, 210)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=850316647]
+position = Vector2(-51, 60)
+shape = SubResource("RectangleShape2D_otwa2")
