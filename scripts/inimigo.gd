@@ -81,6 +81,7 @@ func _physics_process(delta: float) -> void:
 		animation.play("idle")
 
 	move_and_slide()
+	WrapManager.wrap_node(self)
 
 func update_facing() -> void:
 	if player == null:

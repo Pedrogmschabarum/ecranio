@@ -76,14 +76,7 @@ func _physics_process(delta: float) -> void:
 			animation.play("idle")
 
 	move_and_slide()
-
-	# Detecta colisão com inimigo
-	#for i in range(get_slide_collision_count()):
-		#var collision = get_slide_collision(i)
-		#var collider = collision.get_collider()
-#
-		#if collider != null and collider.is_in_group("enemies"):
-			#take_damage(1, collider.global_position)
+	WrapManager.wrap_node(self)
 
 func take_damage(amount: int, enemy_position: Vector2) -> void:
 	if not can_take_damage or is_dead:

@@ -4,3 +4,4 @@ res://atores/jogador.tscn
 res://scripts/hitbox.gd
 res://scripts/inimigo.gd
 res://atores/inimigo.tscn
+res://scripts/wrap_manager.gd

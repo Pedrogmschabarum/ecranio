@@ -270,7 +270,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"hurt",
-"speed": 5.0
+"speed": 4.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -325,7 +325,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"run",
-"speed": 5.0
+"speed": 7.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -394,6 +394,7 @@ position = Vector2(1, -15)
 sprite_frames = SubResource("SpriteFrames_ime0c")
 animation = &"run"
 autoplay = "walking"
+frame_progress = 0.88374436
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1032572059]
 shape = SubResource("CapsuleShape2D_guany")
