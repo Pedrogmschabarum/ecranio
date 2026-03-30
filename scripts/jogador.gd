@@ -12,6 +12,9 @@ var is_jumping := false
 var health := 3
 var can_take_damage := true
 
+func _ready() -> void:
+	add_to_group("player")
+
 func _physics_process(delta: float) -> void:
 	# Gravidade
 	if not is_on_floor():
