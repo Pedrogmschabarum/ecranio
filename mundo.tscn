@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bjkpye2gs35ek"]
 
 [ext_resource type="Texture2D" uid="uid://cljc6cxvsnpmu" path="res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/4/dead forest.png" id="1_fw4w5"]
-[ext_resource type="PackedScene" uid="uid://be6kxfnulxj3x" path="res://Assets/inimigo.tscn" id="2_5ckkb"]
+[ext_resource type="PackedScene" uid="uid://babnx28j20l8h" path="res://atores/inimigo.tscn" id="2_fw4w5"]
 [ext_resource type="PackedScene" uid="uid://b8kgpcp6ggtdq" path="res://atores/jogador.tscn" id="3_fw4w5"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_otwa2"]
@@ -9,16 +9,16 @@ size = Vector2(632, 30)
 
 [node name="Mundo" type="Node2D" unique_id=17495764]
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=984335309]
-position = Vector2(320, 159)
-
 [node name="Fundo" type="Sprite2D" parent="." unique_id=55444330]
 position = Vector2(320, 160.49998)
 scale = Vector2(0.16614582, 0.14675924)
 texture = ExtResource("1_fw4w5")
 
-[node name="inimigo" parent="." unique_id=829725430 groups=["enemies"] instance=ExtResource("2_5ckkb")]
-position = Vector2(125, 185)
+[node name="Camera2D" type="Camera2D" parent="." unique_id=984335309]
+position = Vector2(320, 159)
+
+[node name="inimigo" parent="." unique_id=829725430 groups=["enemies"] instance=ExtResource("2_fw4w5")]
+position = Vector2(120, 209)
 
 [node name="Jogador" parent="." unique_id=1037610270 instance=ExtResource("3_fw4w5")]
 position = Vector2(320, 203)

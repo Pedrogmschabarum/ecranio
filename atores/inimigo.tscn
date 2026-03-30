@@ -326,9 +326,8 @@ script = ExtResource("1_2ngx5")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=225928214]
 position = Vector2(1, -15)
 sprite_frames = SubResource("SpriteFrames_ime0c")
-animation = &"hurt"
-autoplay = "idle"
-frame_progress = 0.37192607
+animation = &"walking"
+autoplay = "walking"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1032572059]
 shape = SubResource("CapsuleShape2D_guany")
