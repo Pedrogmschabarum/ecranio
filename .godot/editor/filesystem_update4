@@ -1,3 +1,5 @@
 res://mundo.tscn
-res://atores/inimigo.tscn
+res://scripts/jogador.gd
 res://atores/jogador.tscn
+res://scripts/hitbox.gd
+res://scripts/inimigo.gd

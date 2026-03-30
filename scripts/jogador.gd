@@ -11,11 +11,14 @@ const KNOCKBACK_Y = -200.0
 var is_jumping := false
 var health := 3
 var can_take_damage := true
+var is_dead: bool = false
 
 func _ready() -> void:
 	add_to_group("player")
 
 func _physics_process(delta: float) -> void:
+	if is_dead:
+		return
 	# Gravidade
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -84,5 +87,11 @@ func take_damage(amount: int, enemy_position: Vector2) -> void:
 	animation.modulate.a = 1.0
 
 func die() -> void:
-	print("Morreu")
-	queue_free()
+	if is_dead:
+		return
+
+	is_dead = true
+	velocity = Vector2.ZERO
+	animation.play("dead")
+
+	await animation.animation_finished
