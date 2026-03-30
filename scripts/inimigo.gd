@@ -27,7 +27,7 @@ func _ready() -> void:
 	attack_range.body_exited.connect(_on_attack_range_body_exited)
 	attack_timer.timeout.connect(_on_attack_timer_timeout)
 
-	attack_timer.wait_time = 1.0
+	attack_timer.wait_time = 2.0
 	attack_timer.one_shot = false
 
 func _physics_process(delta: float) -> void:
@@ -130,7 +130,6 @@ func die() -> void:
 	queue_free()
 
 #region Funcoes de ataque
-
 func attack() -> void:
 	if is_dead:
 		return
@@ -147,7 +146,7 @@ func attack() -> void:
 	animation.play("attack1")
 
 	# Momento do hit
-	await get_tree().create_timer(0.2).timeout
+	await get_tree().create_timer(0.15).timeout
 
 	if player_in_range and player != null and player.has_method("take_damage"):
 		player.take_damage(ATTACK_DAMAGE, global_position)

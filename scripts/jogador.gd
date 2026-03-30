@@ -146,6 +146,5 @@ func attack() -> void:
 func _on_attack_area_body_entered(body: Node) -> void:
 	if body.is_in_group("enemies") and body.has_method("take_damage"):
 		body.take_damage(1, global_position)
-		
 	
 #endregion

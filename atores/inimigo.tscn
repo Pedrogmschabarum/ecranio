@@ -383,7 +383,7 @@ _data = {
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h1ri0"]
-size = Vector2(80, 72)
+size = Vector2(68, 72)
 
 [node name="Inimigo" type="CharacterBody2D" unique_id=829725430]
 collision_layer = 2
@@ -404,6 +404,8 @@ autoplay = &"andando"
 speed_scale = 0.769
 
 [node name="AttackRange" type="Area2D" parent="." unique_id=1365338676]
+light_mask = 3
+collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AttackRange" unique_id=893636283]
 shape = SubResource("RectangleShape2D_h1ri0")

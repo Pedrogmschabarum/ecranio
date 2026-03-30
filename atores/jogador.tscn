@@ -317,7 +317,7 @@ radius = 21.0
 height = 88.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gx28n"]
-size = Vector2(80, 87)
+size = Vector2(102, 87)
 
 [node name="Jogador" type="CharacterBody2D" unique_id=1037610270 groups=["player"]]
 script = ExtResource("1_4obgb")
@@ -326,8 +326,10 @@ script = ExtResource("1_4obgb")
 position = Vector2(0, -11)
 scale = Vector2(0.9062501, 1.0625001)
 sprite_frames = SubResource("SpriteFrames_5ckkb")
-animation = &"block"
+animation = &"attack1"
 autoplay = "idle"
+frame = 4
+frame_progress = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1999420470]
 position = Vector2(-1, 0)
@@ -336,6 +338,9 @@ shape = SubResource("CapsuleShape2D_xwo6f")
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1150736238]
 
 [node name="AttackArea" type="Area2D" parent="." unique_id=775989833]
+light_mask = 3
+collision_layer = 0
+collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea" unique_id=565995051]
 shape = SubResource("RectangleShape2D_gx28n")
