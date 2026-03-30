@@ -15,6 +15,8 @@ var health := 3
 var can_take_damage := true
 var is_dead: bool = false
 var is_attacking: bool = false
+var is_blocking: bool = false
+var facing: float = 1.0
 
 func _ready() -> void:
 	add_to_group("player")
@@ -31,6 +33,7 @@ func _physics_process(delta: float) -> void:
 		move_and_slide()
 		return
 	
+	
 	# Ataque
 	if Input.is_action_just_pressed("attack") and not is_attacking and not is_dead:
 		attack()
@@ -38,6 +41,14 @@ func _physics_process(delta: float) -> void:
 		velocity.x = 0.0
 		move_and_slide()
 		return
+		
+	# Bloqueio
+	is_blocking = Input.is_action_pressed("block") and not is_dead and not is_attacking
+	if is_blocking:
+		velocity.x = 0.0
+		animation.play("block")
+		move_and_slide()
+		return	
 		
 	# Pulo
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
@@ -75,7 +86,11 @@ func _physics_process(delta: float) -> void:
 			#take_damage(1, collider.global_position)
 
 func take_damage(amount: int, enemy_position: Vector2) -> void:
-	if not can_take_damage:
+	if not can_take_damage or is_dead:
+		return
+
+	if is_blocking:
+		print("Ataque bloqueado!")
 		return
 
 	health -= amount
@@ -83,15 +98,13 @@ func take_damage(amount: int, enemy_position: Vector2) -> void:
 
 	print("Tomou dano! Vida atual: ", health)
 
-	# Knockback
 	var direction: float = sign(global_position.x - enemy_position.x)
-	if direction == 0:
-		direction = 1
+	if direction == 0.0:
+		direction = 1.0
 
 	velocity.x = direction * KNOCKBACK_X
 	velocity.y = KNOCKBACK_Y
 
-	# Efeito visual simples
 	animation.modulate.a = 0.5
 
 	if health <= 0:
@@ -101,7 +114,7 @@ func take_damage(amount: int, enemy_position: Vector2) -> void:
 	await get_tree().create_timer(DAMAGE_COOLDOWN).timeout
 	can_take_damage = true
 	animation.modulate.a = 1.0
-
+	
 func is_player_dead():
 	return is_dead
 
