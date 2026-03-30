@@ -115,6 +115,7 @@ func take_damage(amount: int, enemy_position: Vector2) -> void:
 	can_take_damage = true
 	animation.modulate.a = 1.0
 	
+	
 func is_player_dead():
 	return is_dead
 
@@ -123,7 +124,7 @@ func die() -> void:
 		return
 
 	is_dead = true
-	velocity = Vector2.ZERO
+	velocity.x = 0.0
 	animation.play("dead")
 
 	await animation.animation_finished
