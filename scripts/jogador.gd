@@ -6,15 +6,20 @@ const DAMAGE_COOLDOWN = 1.0
 const KNOCKBACK_X = 250.0
 const KNOCKBACK_Y = -200.0
 
-@onready var animation := $AnimatedSprite2D as AnimatedSprite2D
+@onready var animation: AnimatedSprite2D = $AnimatedSprite2D
+@onready var attack_area: Area2D = $AttackArea
+@onready var attack_collision: CollisionShape2D = $AttackArea/CollisionShape2D
 
 var is_jumping := false
 var health := 3
 var can_take_damage := true
 var is_dead: bool = false
+var is_attacking: bool = false
 
 func _ready() -> void:
 	add_to_group("player")
+	attack_collision.disabled = true
+	attack_area.body_entered.connect(_on_attack_area_body_entered)
 
 func _physics_process(delta: float) -> void:
 	# Gravidade
@@ -26,6 +31,14 @@ func _physics_process(delta: float) -> void:
 		move_and_slide()
 		return
 	
+	# Ataque
+	if Input.is_action_just_pressed("attack") and not is_attacking and not is_dead:
+		attack()
+	if is_attacking:
+		velocity.x = 0.0
+		move_and_slide()
+		return
+		
 	# Pulo
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
@@ -101,3 +114,24 @@ func die() -> void:
 	animation.play("dead")
 
 	await animation.animation_finished
+
+
+#region Funcoes de ataque
+func attack() -> void:
+	is_attacking = true
+	velocity.x = 0.0
+	animation.play("attack1")
+
+	attack_collision.disabled = false
+	await get_tree().create_timer(0.15).timeout
+	attack_collision.disabled = true
+
+	await animation.animation_finished
+	is_attacking = false
+
+func _on_attack_area_body_entered(body: Node) -> void:
+	if body.is_in_group("enemies") and body.has_method("take_damage"):
+		body.take_damage(1, global_position)
+		
+	
+#endregion

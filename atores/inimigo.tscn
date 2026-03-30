@@ -167,7 +167,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_bmd6y")
 }],
-"loop": true,
+"loop": false,
 "name": &"attack1",
 "speed": 5.0
 }, {
@@ -190,7 +190,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dyyyv")
 }],
-"loop": true,
+"loop": false,
 "name": &"attack2",
 "speed": 5.0
 }, {
@@ -207,7 +207,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_7xnyk")
 }],
-"loop": true,
+"loop": false,
 "name": &"attack3",
 "speed": 5.0
 }, {
@@ -224,7 +224,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_72cfb")
 }],
-"loop": true,
+"loop": false,
 "name": &"dead",
 "speed": 5.0
 }, {
@@ -321,12 +321,13 @@ _data = {
 }
 
 [node name="inimigo" type="CharacterBody2D" unique_id=829725430]
+collision_layer = 2
 script = ExtResource("1_2ngx5")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=225928214]
 position = Vector2(1, -15)
 sprite_frames = SubResource("SpriteFrames_ime0c")
-animation = &"walking"
+animation = &"attack3"
 autoplay = "walking"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1032572059]
