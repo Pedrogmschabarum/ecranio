@@ -17,12 +17,15 @@ func _ready() -> void:
 	add_to_group("player")
 
 func _physics_process(delta: float) -> void:
-	if is_dead:
-		return
 	# Gravidade
 	if not is_on_floor():
 		velocity += get_gravity() * delta
-
+	
+	# Verifica se o personagem morreu	
+	if is_dead:
+		move_and_slide()
+		return
+	
 	# Pulo
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
