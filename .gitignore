@@ -2,4 +2,4 @@
 .export/
 .build/
 *.translation
-*.log
+*.log*.psd
