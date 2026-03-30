@@ -23,6 +23,8 @@ func _physics_process(delta: float) -> void:
 	if player != null:
 		var dx = player.global_position.x - global_position.x
 		velocity.x = sign(dx) * SPEED
+		animation.scale.x = sign(dx)
+
 	else:
 		velocity.x = 0.0
 

@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://4g25pchfpjy4" path="res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Idle.png" id="6_24ebx"]
 [ext_resource type="Texture2D" uid="uid://b25vhhc85w2er" path="res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Jump.png" id="7_nsorm"]
 [ext_resource type="Texture2D" uid="uid://6cbq185coal1" path="res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Run.png" id="8_4bi1b"]
+[ext_resource type="Texture2D" uid="uid://vkr6j6chdd2y" path="res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Protect.png" id="8_ibox3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kkrw1"]
 atlas = ExtResource("2_gx28n")
@@ -124,6 +125,10 @@ region = Rect2(512, 32, 64, 96)
 [sub_resource type="AtlasTexture" id="AtlasTexture_hn1ac"]
 atlas = ExtResource("7_nsorm")
 region = Rect2(640, 32, 64, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yqheb"]
+atlas = ExtResource("8_ibox3")
+region = Rect2(0, 32, 128, 96)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jtyvy"]
 atlas = ExtResource("8_4bi1b")
@@ -274,6 +279,14 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_yqheb")
+}],
+"loop": true,
+"name": &"protect",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_jtyvy")
 }, {
 "duration": 1.0,
@@ -303,6 +316,9 @@ animations = [{
 radius = 21.0
 height = 88.0
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gx28n"]
+size = Vector2(79.75, 87)
+
 [node name="Jogador" type="CharacterBody2D" unique_id=1037610270 groups=["player"]]
 script = ExtResource("1_4obgb")
 
@@ -310,12 +326,16 @@ script = ExtResource("1_4obgb")
 position = Vector2(0, -11)
 scale = Vector2(0.9062501, 1.0625001)
 sprite_frames = SubResource("SpriteFrames_5ckkb")
-animation = &"dead"
+animation = &"protect"
 autoplay = "idle"
-frame_progress = 0.034277216
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1999420470]
 position = Vector2(-1, 0)
 shape = SubResource("CapsuleShape2D_xwo6f")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1150736238]
+
+[node name="AttackArea" type="Area2D" parent="." unique_id=775989833]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea" unique_id=565995051]
+shape = SubResource("RectangleShape2D_gx28n")

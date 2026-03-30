@@ -22,7 +22,7 @@ func _physics_process(delta: float) -> void:
 		velocity += get_gravity() * delta
 	
 	# Verifica se o personagem morreu	
-	if is_dead:
+	if is_player_dead():
 		move_and_slide()
 		return
 	
@@ -54,12 +54,12 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 
 	# Detecta colisão com inimigo
-	for i in range(get_slide_collision_count()):
-		var collision = get_slide_collision(i)
-		var collider = collision.get_collider()
-
-		if collider != null and collider.is_in_group("enemies"):
-			take_damage(1, collider.global_position)
+	#for i in range(get_slide_collision_count()):
+		#var collision = get_slide_collision(i)
+		#var collider = collision.get_collider()
+#
+		#if collider != null and collider.is_in_group("enemies"):
+			#take_damage(1, collider.global_position)
 
 func take_damage(amount: int, enemy_position: Vector2) -> void:
 	if not can_take_damage:
@@ -93,7 +93,7 @@ func is_player_dead():
 	return is_dead
 
 func die() -> void:
-	if is_dead:
+	if is_player_dead():
 		return
 
 	is_dead = true
