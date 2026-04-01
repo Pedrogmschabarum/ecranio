@@ -4,11 +4,12 @@
 [ext_resource type="Script" uid="uid://b4fjpehsvcpr5" path="res://mundo.gd" id="1_otwa2"]
 [ext_resource type="PackedScene" uid="uid://babnx28j20l8h" path="res://atores/inimigo.tscn" id="2_fw4w5"]
 [ext_resource type="PackedScene" uid="uid://b8kgpcp6ggtdq" path="res://atores/jogador.tscn" id="3_fw4w5"]
+[ext_resource type="Script" uid="uid://b15mkt1f4ilx6" path="res://spawner.gd" id="5_aou4a"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_otwa2"]
 size = Vector2(908, 30)
 
-[node name="Mundo" type="Node2D" unique_id=17495764]
+[node name="Mundo" type="Node2D" unique_id=17495764 groups=["world"]]
 script = ExtResource("1_otwa2")
 
 [node name="Fundo" type="Sprite2D" parent="." unique_id=55444330]
@@ -31,3 +32,11 @@ position = Vector2(316, 277)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="chao" unique_id=850316647]
 position = Vector2(-8, 27)
 shape = SubResource("RectangleShape2D_otwa2")
+
+[node name="Spawner" type="Node2D" parent="." unique_id=429629388]
+script = ExtResource("5_aou4a")
+
+[node name="ScoreLabel" type="Label" parent="." unique_id=1284787217]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Score: 0"

@@ -128,8 +128,13 @@ func die() -> void:
 	animation.play("dead")
 
 	await animation.animation_finished
-	queue_free()
 
+	var world = get_tree().get_first_node_in_group("world")
+
+	if world and world.has_method("add_score"):
+		world.add_score(10)
+
+	queue_free()
 #region Funcoes de ataque
 func attack() -> void:
 	if is_dead:

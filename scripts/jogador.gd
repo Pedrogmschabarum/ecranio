@@ -76,7 +76,7 @@ func _physics_process(delta: float) -> void:
 			animation.play("idle")
 
 	move_and_slide()
-	WrapManager.wrap_node(self)
+	WrapManager.wrap_node(self) 
 
 func take_damage(amount: int, enemy_position: Vector2) -> void:
 	if not can_take_damage or is_dead:
