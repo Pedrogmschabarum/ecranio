@@ -1,7 +1,6 @@
 res://mundo.tscn
-res://scripts/jogador.gd
-res://atores/jogador.tscn
-res://scripts/hitbox.gd
+res://atores/boss.tscn
+res://atores/boss.gd
+res://mundo.gd
+res://spawner.gd
 res://scripts/inimigo.gd
-res://atores/inimigo.tscn
-res://scripts/wrap_manager.gd

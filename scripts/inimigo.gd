@@ -18,6 +18,8 @@ var is_attacking: bool = false
 var player_in_range: bool = false
 var facing: float = 1.0
 
+signal morreu
+
 func _ready() -> void:
 	add_to_group("enemies")
 
@@ -134,6 +136,7 @@ func die() -> void:
 	if world and world.has_method("add_score"):
 		world.add_score(10)
 
+	emit_signal("morreu")
 	queue_free()
 #region Funcoes de ataque
 func attack() -> void:
