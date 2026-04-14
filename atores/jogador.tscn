@@ -317,7 +317,11 @@ radius = 21.0
 height = 88.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gx28n"]
-size = Vector2(102, 87)
+size = Vector2(130, 90)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hurtbox"]
+radius = 17.0
+height = 70.0
 
 [node name="Jogador" type="CharacterBody2D" unique_id=1037610270 groups=["player"]]
 script = ExtResource("1_4obgb")
@@ -339,8 +343,16 @@ shape = SubResource("CapsuleShape2D_xwo6f")
 [node name="AttackArea" type="Area2D" parent="." unique_id=775989833]
 light_mask = 3
 collision_layer = 0
-collision_mask = 3
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea" unique_id=565995051]
 position = Vector2(3, 0)
 shape = SubResource("RectangleShape2D_gx28n")
+
+[node name="Hurtbox" type="Area2D" parent="." groups=["player_hurtbox"]]
+collision_layer = 8
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+position = Vector2(-1, 0)
+shape = SubResource("CapsuleShape2D_hurtbox")
