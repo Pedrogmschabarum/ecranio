@@ -9,6 +9,7 @@ const KNOCKBACK_Y = -200.0
 @onready var animation: AnimatedSprite2D = $AnimatedSprite2D
 @onready var attack_area: Area2D = $AttackArea
 @onready var attack_collision: CollisionShape2D = $AttackArea/CollisionShape2D
+@onready var som_espada = $SomEspada
 
 var is_jumping := false
 var health := 3
@@ -134,6 +135,7 @@ func attack() -> void:
 	is_attacking = true
 	velocity.x = 0.0
 	animation.play("attack1")
+	som_espada.play()
 
 	_atualizar_attack_area_pos()
 	attack_collision.disabled = false

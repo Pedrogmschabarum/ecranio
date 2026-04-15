@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://b25vhhc85w2er" path="res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Jump.png" id="7_nsorm"]
 [ext_resource type="Texture2D" uid="uid://6cbq185coal1" path="res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Run.png" id="8_4bi1b"]
 [ext_resource type="Texture2D" uid="uid://vkr6j6chdd2y" path="res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Protect.png" id="8_ibox3"]
+[ext_resource type="AudioStream" uid="uid://bypl1hjf7xrii" path="res://Assets/sons/musicholder-sword-sound-260274.mp3" id="10_yqheb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kkrw1"]
 atlas = ExtResource("2_gx28n")
@@ -349,10 +350,14 @@ collision_mask = 2
 position = Vector2(3, 0)
 shape = SubResource("RectangleShape2D_gx28n")
 
-[node name="Hurtbox" type="Area2D" parent="." groups=["player_hurtbox"]]
+[node name="Hurtbox" type="Area2D" parent="." unique_id=774393412 groups=["player_hurtbox"]]
 collision_layer = 8
 collision_mask = 0
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox" unique_id=1708943928]
 position = Vector2(-1, 0)
 shape = SubResource("CapsuleShape2D_hurtbox")
+
+[node name="SomEspada" type="AudioStreamPlayer2D" parent="." unique_id=1761717222]
+stream = ExtResource("10_yqheb")
+volume_db = -5.0
