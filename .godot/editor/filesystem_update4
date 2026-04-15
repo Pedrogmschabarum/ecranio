@@ -1,6 +1,2 @@
-res://atores/boss.gd
-res://atores/inimigo.tscn
-res://scripts/inimigo.gd
-res://scripts/jogador.gd
-res://spawner.gd
+res://mundo.tscn
 res://mundo.gd

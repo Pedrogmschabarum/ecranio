@@ -1,201 +1,204 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1776177351
-icon.svg::CompressedTexture2D::4279711088376102858::1776176023::1776176048::1::::<><><>0<>0<>deba2c9e5313084a42d68686d7fbd7d4<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-mundo.gd::GDScript::4432792499562839420::1776176857::0::1::::<>Node2D<><>0<>0<><>::
-mundo.tscn::PackedScene::3039717920022126474::1776176171::0::1::::<><><>0<>0<><>::uid://cljc6cxvsnpmu::::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/4/dead forest.png<>uid://b4fjpehsvcpr5::::res://mundo.gd<>uid://babnx28j20l8h::::res://atores/inimigo.tscn<>uid://b8kgpcp6ggtdq::::res://atores/jogador.tscn<>uid://b15mkt1f4ilx6::::res://spawner.gd
-spawner.gd::GDScript::4274009451130809225::1776176848::0::1::::<>Node2D<><>0<>0<><>::
-::res://Assets/::1776176023
-hitbox.tscn::PackedScene::5568541935345109181::1776176023::0::1::::<><><>0<>0<><>::uid://cfyplcjdjnpid::::res://scripts/hitbox.gd
-inimigo.tscn::PackedScene::2731820295432092571::1776176023::0::1::::<><><>0<>0<><>::uid://tqljluu3jkk6::::res://scripts/inimigo.gd<>uid://dqt0r5gkjloap::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Walk.png<>uid://ciiu8l4x1fq5c::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Hurt.png
-::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/::1776176050
-COUPON.png::CompressedTexture2D::8660144148190631267::1776176022::1776176050::1::::<><><>0<>0<>6b7bb3da203374e70cc4e3c398cb4449<>res://.godot/imported/COUPON.png-16fc40f15a1776e90ec91bed408f8c98.ctex::
-Font.txt::TextFile::-1::1776176022::0::1::::<><><>0<>0<><>::
-License.txt::TextFile::-1::1776176022::0::1::::<><><>0<>0<><>::
-::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/__MACOSX/::1776176046
-._COUPON.png::CompressedTexture2D::6460971535996395691::1776176022::1776176046::0::::<><><>0<>0<>000567d02a27cbaf143f71949e014bde<>::
-._Font.txt::TextFile::-1::1776176022::0::1::::<><><>0<>0<><>::
-._License.txt::TextFile::-1::1776176022::0::1::::<><><>0<>0<><>::
-::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/__MACOSX/Knight_1/::1776176046
-._Attack 1.png::CompressedTexture2D::9140707478531545190::1776176022::1776176046::0::::<><><>0<>0<>2297d7ee893dc03b1ae3ca89ed9812f0<>::
-._Attack 2.png::CompressedTexture2D::3202141950990701180::1776176022::1776176046::0::::<><><>0<>0<>d5775dc0cf893b835fdb2d8dd112d5ef<>::
-._Attack 3.png::CompressedTexture2D::8954710280913623605::1776176022::1776176046::0::::<><><>0<>0<>77fde15d2762a22abba7b6ceaff22fb1<>::
-._Dead.png::CompressedTexture2D::7004932268989006212::1776176022::1776176046::0::::<><><>0<>0<>508b3601f354dd2135e46a74d25f5957<>::
-._Defend.png::CompressedTexture2D::623803130295139658::1776176022::1776176046::0::::<><><>0<>0<>6c44c47e4c3830205a22bf9ac55f8b52<>::
-._Hurt.png::CompressedTexture2D::8516315677682612500::1776176022::1776176046::0::::<><><>0<>0<>f99bff9cf944c4031652cd89ec29b7ee<>::
-._Idle.png::CompressedTexture2D::5624069564647228909::1776176022::1776176046::0::::<><><>0<>0<>28f6ff675e5e3ca88bf804f429d001e3<>::
-._Jump.png::CompressedTexture2D::342538654084389059::1776176022::1776176046::0::::<><><>0<>0<>2e6ed09d2a2a07d8f50332bac58b5c62<>::
-._Protect.png::CompressedTexture2D::2483042578047882899::1776176022::1776176046::0::::<><><>0<>0<>16ab2438e36b3c1ed4542e8b22fc6813<>::
-._Run+Attack.png::CompressedTexture2D::1475579022373918279::1776176022::1776176046::0::::<><><>0<>0<>41a97b9399c0ab509207f139496beebd<>::
-._Run.png::CompressedTexture2D::8827143896750039346::1776176022::1776176046::0::::<><><>0<>0<>fb79546832c85a5228095458c2f34148<>::
-._Walk.png::CompressedTexture2D::5507970549655977481::1776176022::1776176046::0::::<><><>0<>0<>ee632f5e41c03fdc86c1a4a7a8647bb0<>::
-::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/__MACOSX/Knight_2/::1776176046
-._Attack 1.png::CompressedTexture2D::530063474506179215::1776176022::1776176046::0::::<><><>0<>0<>af8a501d68abb4b6a60d177437f0fc7b<>::
-._Attack 2.png::CompressedTexture2D::7493003448793564757::1776176022::1776176046::0::::<><><>0<>0<>a789a4c3d901bd09ca8cb7066d209c36<>::
-._Attack 3.png::CompressedTexture2D::1710506829898275345::1776176022::1776176046::0::::<><><>0<>0<>a3db13b63152f78daa602fe7aeaf871a<>::
-._Dead.png::CompressedTexture2D::989998158755504473::1776176022::1776176046::0::::<><><>0<>0<>c2ef9e5fec8f1b357551e39b6e788eed<>::
-._Defend.png::CompressedTexture2D::3362790619948756231::1776176022::1776176046::0::::<><><>0<>0<>416d3298bc68edc6b151429c5d2e101a<>::
-._Hurt.png::CompressedTexture2D::3890859768873649270::1776176022::1776176046::0::::<><><>0<>0<>ea51b896feffbf9085158103f6c65cb7<>::
-._Idle.png::CompressedTexture2D::8766835866838177878::1776176022::1776176046::0::::<><><>0<>0<>07dbe42fbb0c33ba0dbee85aca030616<>::
-._Jump.png::CompressedTexture2D::5841002622125330833::1776176022::1776176046::0::::<><><>0<>0<>5a6b74b25981f07ffac8e81164a90e18<>::
-._Protect.png::CompressedTexture2D::6760245268998180214::1776176022::1776176046::0::::<><><>0<>0<>66eb1c2def07b9425eef99848aa3d448<>::
-._Run+Attack.png::CompressedTexture2D::6091057874999318131::1776176022::1776176046::0::::<><><>0<>0<>d2d08e4dde0ddcff8547e2f7463f0a9e<>::
-._Run.png::CompressedTexture2D::567704809912133299::1776176022::1776176046::0::::<><><>0<>0<>2af9150434cf1bc03a05d383365f71dc<>::
-._Walk.png::CompressedTexture2D::7023673035417527833::1776176022::1776176046::0::::<><><>0<>0<>4eb04358998b47d11f5e48615b53b35c<>::
-::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/__MACOSX/Knight_3/::1776176046
-._Attack 1.png::CompressedTexture2D::3046626784787123159::1776176022::1776176046::0::::<><><>0<>0<>fdb67e7070d50960a659885427976b3e<>::
-._Attack 2.png::CompressedTexture2D::7788432960420037669::1776176022::1776176046::0::::<><><>0<>0<>37ade7c104c8a5db334831b2ba67b766<>::
-._Attack 3.png::CompressedTexture2D::2323132687779646068::1776176022::1776176046::0::::<><><>0<>0<>795805f17e533745b651bbcc5b5b96c1<>::
-._Dead.png::CompressedTexture2D::8202158749898565531::1776176022::1776176046::0::::<><><>0<>0<>186e1290b3a1d1b92e449d693ad03785<>::
-._Defend.png::CompressedTexture2D::8463463567272443370::1776176022::1776176046::0::::<><><>0<>0<>04701e7b305c02faa39f58ad16015f1d<>::
-._Hurt.png::CompressedTexture2D::2512917408068945727::1776176022::1776176046::0::::<><><>0<>0<>4b4e418b1d25ac94b47ec2b365fb2901<>::
-._Idle.png::CompressedTexture2D::604667779141283231::1776176022::1776176046::0::::<><><>0<>0<>b966a5707b94a5660a1a3c48d6fb2658<>::
-._Jump.png::CompressedTexture2D::8774184011881981506::1776176022::1776176046::0::::<><><>0<>0<>0dbe355883030fe0ed42dcfa2c7e181f<>::
-._Protect.png::CompressedTexture2D::2920833259703662553::1776176022::1776176046::0::::<><><>0<>0<>c6f131a5d0ff29b4b0074a3102c66585<>::
-._Run+Attack.png::CompressedTexture2D::8929409523842694991::1776176022::1776176046::0::::<><><>0<>0<>8c59dd84e35791cd7533163f4ddf6172<>::
-._Run.png::CompressedTexture2D::3960525307117186526::1776176022::1776176046::0::::<><><>0<>0<>f989c6e85662efc74cdebc9c853ec8c9<>::
-._Walk.png::CompressedTexture2D::3801742474902097846::1776176022::1776176046::0::::<><><>0<>0<>4262abf5fcc6bfce5656ae06ff8cef7a<>::
-::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/__MACOSX/PSD/::1776176046
-._knight1_spritelist_1.png::CompressedTexture2D::3794742433473877782::1776176022::1776176046::0::::<><><>0<>0<>264dab28bd1fdbaf89c837dc3ba2c1ef<>::
-._knight1_spritelist_2.png::CompressedTexture2D::6137916105652540924::1776176022::1776176046::0::::<><><>0<>0<>5225eaa7adc8ea631550387b53273b89<>::
-._knight2_spritelist_1.png::CompressedTexture2D::3550814140883402863::1776176022::1776176046::0::::<><><>0<>0<>383fc9e47ae4740c18ea0226826c44a2<>::
-._knight2_spritelist_2.png::CompressedTexture2D::6539669466782726965::1776176022::1776176046::0::::<><><>0<>0<>70904d0e2fe3ce6093ddc4f05f83815f<>::
-._knight3_spritelist_1.png::CompressedTexture2D::9114632066421383274::1776176022::1776176046::0::::<><><>0<>0<>89b50c09b082dd679d5b0b424e3ead94<>::
-._knight3_spritelist_2.png::CompressedTexture2D::7977038022176724008::1776176022::1776176046::0::::<><><>0<>0<>10c89610ae9d56dc3f8a7f3c4dfe8d51<>::
-::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/::1776176049
-Attack 1.png::CompressedTexture2D::4930371690584916085::1776176022::1776176049::1::::<><><>0<>0<>10d3167a182d21f8293d87f74fd95607<>res://.godot/imported/Attack 1.png-7a7cf9364472c49c71074ef45aa73529.ctex::
-Attack 2.png::CompressedTexture2D::3727354544083886943::1776176022::1776176049::1::::<><><>0<>0<>844ee9389197f968d7b3ef052017e4f7<>res://.godot/imported/Attack 2.png-d577c1805dd6bf17b2e96b0327838551.ctex::
-Attack 3.png::CompressedTexture2D::5058008977487742003::1776176022::1776176049::1::::<><><>0<>0<>fc383f68c5d00f2536595feefca59f26<>res://.godot/imported/Attack 3.png-b576c50fc68053f9f9eae811724c5ad2.ctex::
-Dead.png::CompressedTexture2D::2083292256670900564::1776176022::1776176049::1::::<><><>0<>0<>688156e8a0f303faddb5e767fb083473<>res://.godot/imported/Dead.png-3de38f269e3949b93d41e96e0ab7d261.ctex::
-Defend.png::CompressedTexture2D::4470353328781554850::1776176022::1776176049::1::::<><><>0<>0<>7eaf1fa741b2efaa53c9e674e72b0bad<>res://.godot/imported/Defend.png-25f865786ef0f99b18a24de042ccdcdc.ctex::
-Hurt.png::CompressedTexture2D::8962578347798888642::1776176022::1776176049::1::::<><><>0<>0<>054a77df5bcf818dd03bd7d3a68ef60b<>res://.godot/imported/Hurt.png-f4c196b7c8b4c2c7baaa14c4fdea82c4.ctex::
-Idle.png::CompressedTexture2D::2049556455914330649::1776176022::1776176049::1::::<><><>0<>0<>0cb9e7496e24452c6469eb2cf6341986<>res://.godot/imported/Idle.png-64effca2194ae8d0de0778e97cc241a3.ctex::
-Jump.png::CompressedTexture2D::4344738724240613685::1776176022::1776176049::1::::<><><>0<>0<>e0958329d0a051398e7419f1f48dd107<>res://.godot/imported/Jump.png-f7358259a09abf1d6f8e0598db8cc5c1.ctex::
-Protect.png::CompressedTexture2D::1495697563126795202::1776176022::1776176049::1::::<><><>0<>0<>d591c7abac35cbce799c3c2fe1feefdb<>res://.godot/imported/Protect.png-298d98cfa617abe74cd22b9052ca81fe.ctex::
-Run+Attack.png::CompressedTexture2D::2917840900441105255::1776176022::1776176049::1::::<><><>0<>0<>8b456cfc8097fbc9a77c4c3ef8252e98<>res://.godot/imported/Run+Attack.png-de135815e2aad8bf1d9e0005301f50d5.ctex::
-Run.png::CompressedTexture2D::2180073615934303776::1776176022::1776176049::1::::<><><>0<>0<>88d5291747b15191f55c115492830e06<>res://.godot/imported/Run.png-2c8604375770ba125a56bf60d06d23d7.ctex::
-Walk.png::CompressedTexture2D::9187412180372014321::1776176022::1776176049::1::::<><><>0<>0<>2e21a853811cc5620445b0f04a539eaf<>res://.godot/imported/Walk.png-e03ea6a69532282556bad83074a869de.ctex::
-::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_2/::1776176049
-Attack 1.png::CompressedTexture2D::1931778155744543153::1776176022::1776176049::1::::<><><>0<>0<>df55abc07cb4bbdba2d3c678fc78f67b<>res://.godot/imported/Attack 1.png-fa442cf3bf2fc47efd3a1179346e7bdd.ctex::
-Attack 2.png::CompressedTexture2D::5364845196068841647::1776176022::1776176049::1::::<><><>0<>0<>66854d26e031383e1503f36892078b65<>res://.godot/imported/Attack 2.png-7869239204befa45c10a8dbcc5e36839.ctex::
-Attack 3.png::CompressedTexture2D::8630915700960621558::1776176022::1776176049::1::::<><><>0<>0<>728ce465af1338f5294b34284201703d<>res://.godot/imported/Attack 3.png-f43bceb28409284b712bdb6a7fe27450.ctex::
-Dead.png::CompressedTexture2D::383652777144759863::1776176022::1776176049::1::::<><><>0<>0<>e6bed58383e7aedfdc1b36e1326ce8e1<>res://.godot/imported/Dead.png-cce58eeeaf65fab38c30cede331dbc82.ctex::
-Defend.png::CompressedTexture2D::7291704999260865587::1776176022::1776176049::1::::<><><>0<>0<>d44037f7309fee09277f65f758ac7481<>res://.godot/imported/Defend.png-0c01a0d86943b42b4b2715620af43e1d.ctex::
-Hurt.png::CompressedTexture2D::3935136833983673873::1776176022::1776176049::1::::<><><>0<>0<>266e284ea4fcd59803ab7167fe3070a5<>res://.godot/imported/Hurt.png-0b563062ba1020d34933bf80bf9a801b.ctex::
-Idle.png::CompressedTexture2D::8083252276618658088::1776176022::1776176049::1::::<><><>0<>0<>3e03dc0a0c11d02fe89b57845762d4d1<>res://.godot/imported/Idle.png-1da2e06e47067c779a96242870c864ee.ctex::
-Jump.png::CompressedTexture2D::1489934081718830475::1776176022::1776176049::1::::<><><>0<>0<>ea50224aa429e98fd3db67199f012cb7<>res://.godot/imported/Jump.png-a141262adc10a385c367618cb5839d41.ctex::
-Protect.png::CompressedTexture2D::6638215415871948532::1776176022::1776176049::1::::<><><>0<>0<>512ccce165efa562ca0b9b41e46c858a<>res://.godot/imported/Protect.png-7fcb17f56f76e4756821b1599996dbdc.ctex::
-Run+Attack.png::CompressedTexture2D::7714705075382398380::1776176022::1776176049::1::::<><><>0<>0<>424c641f74bb544c12773d621f084fbb<>res://.godot/imported/Run+Attack.png-1e190fb8d98fe770af56b4278a180c3c.ctex::
-Run.png::CompressedTexture2D::1303089785462454041::1776176022::1776176049::1::::<><><>0<>0<>4959c2a8e7b0591b682dc3aaeca068d9<>res://.godot/imported/Run.png-d59284b02457a2ff1d278d61e5ad5492.ctex::
-Walk.png::CompressedTexture2D::3669865076828968095::1776176022::1776176049::1::::<><><>0<>0<>8f9226dd1cb543b3672e33674e9d4ed8<>res://.godot/imported/Walk.png-7647f52c465d401d4fc5a96c52546255.ctex::
-::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_3/::1776176051
-Attack 1.png::CompressedTexture2D::8266256462604703030::1776176022::1776176049::1::::<><><>0<>0<>379ef31d77c8c74d8ca05e2831863cc6<>res://.godot/imported/Attack 1.png-25662913810bffa00e871d58633fc210.ctex::
-Attack 2.png::CompressedTexture2D::7730169064701164875::1776176022::1776176049::1::::<><><>0<>0<>8e8a146a685bde44b29ac0c6c8bcd812<>res://.godot/imported/Attack 2.png-8831f8706c112b31858deaaf7a5f15b5.ctex::
-Attack 3.png::CompressedTexture2D::9184893388531817219::1776176022::1776176051::1::::<><><>0<>0<>a45750e224c860991b2ebc6632b169e2<>res://.godot/imported/Attack 3.png-7dbe3d99a021461708572c124da2eaa0.ctex::
-Dead.png::CompressedTexture2D::235751210732180232::1776176022::1776176051::1::::<><><>0<>0<>486e0491e887b07bc7b15fad4551935c<>res://.godot/imported/Dead.png-185ea257a23400b237fd7f3b266634a3.ctex::
-Defend.png::CompressedTexture2D::6806159549049536141::1776176022::1776176051::1::::<><><>0<>0<>1f6cba1ac98bbfd49fc92edf13676886<>res://.godot/imported/Defend.png-2fd4db9374769898bcb691c1e4a8b168.ctex::
-Hurt.png::CompressedTexture2D::9081770208921879123::1776176022::1776176050::1::::<><><>0<>0<>17c5c04549d02e67b530593f5fbc7b3e<>res://.godot/imported/Hurt.png-557d8a305c4cdb415e85486135298b63.ctex::
-Idle.png::CompressedTexture2D::5193770674013453002::1776176022::1776176050::1::::<><><>0<>0<>2ff5b5b86ce05b1d29b5046f769a06c7<>res://.godot/imported/Idle.png-7259055adc3b2967f8d55af9a3112a39.ctex::
-Jump.png::CompressedTexture2D::8888067731750811486::1776176022::1776176050::1::::<><><>0<>0<>b97435a04d4c39ef6c9d26444e3365d9<>res://.godot/imported/Jump.png-db866a16e3f6461bd15267bd1b30ed56.ctex::
-Protect.png::CompressedTexture2D::2738772926011493582::1776176022::1776176050::1::::<><><>0<>0<>b83b8393135d94f4d28a534d342c9be6<>res://.godot/imported/Protect.png-cd21107f571d9f46ab93723553886453.ctex::
-Run+Attack.png::CompressedTexture2D::8351326025009603811::1776176022::1776176050::1::::<><><>0<>0<>af1bff9d68f5dab236e085a4eae0733b<>res://.godot/imported/Run+Attack.png-fcacfcf69c627e9ae1e56431baee1637.ctex::
-Run.png::CompressedTexture2D::6101902856069235466::1776176022::1776176050::1::::<><><>0<>0<>45f178abc380c7b78092a832d94709bf<>res://.godot/imported/Run.png-c16a47da6a8d9cabade64763df3ddd3e.ctex::
-Walk.png::CompressedTexture2D::7171686479506608137::1776176022::1776176050::1::::<><><>0<>0<>51084abe551829713bce05c7f79cbf1f<>res://.godot/imported/Walk.png-655f4a4933c9493bce17b5776928817c.ctex::
-::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/PSD/::1776176050
-knight1_spritelist_1.png::CompressedTexture2D::4637163330110500931::1776176022::1776176050::1::::<><><>0<>0<>9cc6b7e8c70957b794dad27c5003e13d<>res://.godot/imported/knight1_spritelist_1.png-70e1de3ee363b93d4e5c751255c1fbae.ctex::
-knight1_spritelist_2.png::CompressedTexture2D::3261400534612373682::1776176022::1776176050::1::::<><><>0<>0<>4d84264944a797338366d4f63f2b8ba2<>res://.godot/imported/knight1_spritelist_2.png-156103349d930f68dd86e183a7b19e60.ctex::
-knight2_spritelist_1.png::CompressedTexture2D::4070171776612565420::1776176022::1776176050::1::::<><><>0<>0<>a13fbfb63ef2a13e4f3dd5df4af758cd<>res://.godot/imported/knight2_spritelist_1.png-f9b98c77ccbedd6a356cc04a5bc343d4.ctex::
-knight2_spritelist_2.png::CompressedTexture2D::2550245404328637877::1776176022::1776176050::1::::<><><>0<>0<>1f9f47b561e54ee3622692c37bb43299<>res://.godot/imported/knight2_spritelist_2.png-08d738602c3844db41fee05f59f78050.ctex::
-knight3_spritelist_1.png::CompressedTexture2D::4058241761036278662::1776176022::1776176050::1::::<><><>0<>0<>59d403f96c05166debf9437e3dd76daa<>res://.godot/imported/knight3_spritelist_1.png-6488fdbc0ca55efdbfe1109b346b8c7f.ctex::
-knight3_spritelist_2.png::CompressedTexture2D::3882662933056006676::1776176022::1776176050::1::::<><><>0<>0<>5139184cd1d0a24c98b8b6bccb2d9cda<>res://.godot/imported/knight3_spritelist_2.png-6bba38f9ae5b1a2ab230aa8e3b6ef79d.ctex::
-::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/::1776176054
-license.txt::TextFile::-1::1776176023::0::1::::<><><>0<>0<><>::
-::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/__MACOSX/::1776176023
-::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/__MACOSX/PNG/::1776176023
-::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/::1776176023
-::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/1/::1776176052
-1.png::CompressedTexture2D::8286634434877459345::1776176022::1776176051::1::::<><><>0<>0<>72e28faea1b3fa38ce8da9e5baf0888c<>res://.godot/imported/1.png-de032622f96ba4aa56a7d54a806876e7.ctex::
-2.png::CompressedTexture2D::7355969779391333246::1776176022::1776176052::1::::<><><>0<>0<>f65e54d9b8d6f4ce96b7eec59b2756ac<>res://.godot/imported/2.png-6ff8aa217e9a3b71884cac8943ebddd1.ctex::
-3.png::CompressedTexture2D::3617306871909999441::1776176022::1776176050::1::::<><><>0<>0<>85c675901416cc7c2ca8af39cea666fa<>res://.godot/imported/3.png-1a36bdff128deefdd44ebce90d56c3e9.ctex::
-4.png::CompressedTexture2D::9151003523176204949::1776176022::1776176050::1::::<><><>0<>0<>ac3103978b55e695dfdd5ea726194feb<>res://.godot/imported/4.png-f42906e99c65a85c560d2ac74c54f626.ctex::
-5.png::CompressedTexture2D::6209544973351315483::1776176022::1776176051::1::::<><><>0<>0<>c7e968ee43fc4112e113f3e49325fc96<>res://.godot/imported/5.png-655d5a2ebd6726f6771ce2c0ab293b1b.ctex::
-terrace.png::CompressedTexture2D::6011602152971071617::1776176022::1776176052::1::::<><><>0<>0<>1819c333593c83ad9b2e5eb47ae0712b<>res://.godot/imported/terrace.png-2ee0682a48ddd9960844a205a5ec6eff.ctex::
-::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/2/::1776176052
-1.png::CompressedTexture2D::5733526827100050038::1776176022::1776176050::1::::<><><>0<>0<>da7f6f621a0fead8c99eadf1f2f5e613<>res://.godot/imported/1.png-d4b851206a5530a38086c3c6c328a484.ctex::
-2.png::CompressedTexture2D::4297129055916406652::1776176022::1776176052::1::::<><><>0<>0<>aee85ecfb5295a0e1a5a0e2767260e2a<>res://.godot/imported/2.png-11259a0b43f2e3d912503bf2af4e7bc5.ctex::
-3.png::CompressedTexture2D::5868761576046668275::1776176022::1776176050::1::::<><><>0<>0<>36a613e0d5a8222e9069e83072d76048<>res://.godot/imported/3.png-71ea07ac3c7ec933a4db14b0d87b23af.ctex::
-4.png::CompressedTexture2D::1991408396983388612::1776176022::1776176050::1::::<><><>0<>0<>2b131895924c83769e20651a79c3c893<>res://.godot/imported/4.png-e2915850daec79f77fbae27a6f7ce281.ctex::
-5.png::CompressedTexture2D::1252666863163272518::1776176022::1776176049::1::::<><><>0<>0<>cf80438202767ffefb2ad8f80a52e9c2<>res://.godot/imported/5.png-d45432448be4425246e689c82201de7f.ctex::
-throne room.png::CompressedTexture2D::39086683753208199::1776176022::1776176050::1::::<><><>0<>0<>fc8ee96d5a35da42a5f2083653eef754<>res://.godot/imported/throne room.png-2d0120e5ada55cf2ce3170890c83771e.ctex::
-::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/3/::1776176050
-1.png::CompressedTexture2D::2043414003425157439::1776176022::1776176049::1::::<><><>0<>0<>f9d68a64ba194102ea97ac638aa42a86<>res://.godot/imported/1.png-38db66daaa5162e661f7e850abe712dd.ctex::
-2.png::CompressedTexture2D::6450238803205877503::1776176023::1776176050::1::::<><><>0<>0<>a70091babd4d8d326df6744af328f1ad<>res://.godot/imported/2.png-ef827519b26b709b9c202bd08905c46b.ctex::
-3.png::CompressedTexture2D::6384790759094195881::1776176023::1776176048::1::::<><><>0<>0<>044d8154f57b5ee371368cc4b8eeb8ef<>res://.godot/imported/3.png-d24451238d0154397f4b8c99b5e8212f.ctex::
-4.png::CompressedTexture2D::8920108754509613411::1776176023::1776176048::1::::<><><>0<>0<>923a131eff963ef13c051fd276dbdfd5<>res://.godot/imported/4.png-f9084d788de0a94075da35cc8d67c7b4.ctex::
-5.png::CompressedTexture2D::8465475470373027119::1776176023::1776176048::1::::<><><>0<>0<>c4d03de3e2c8e60718c1507e3a48015c<>res://.godot/imported/5.png-42bf08f7dbf196967317dd2394278e5a.ctex::
-castle.png::CompressedTexture2D::7421715944507793420::1776176023::1776176049::1::::<><><>0<>0<>62e7d11e0dc86cc9fd957743b67007fe<>res://.godot/imported/castle.png-a9c8d485b84bfde501d01313b45e69bd.ctex::
-::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/4/::1776176049
-1.png::CompressedTexture2D::2469184628241998494::1776176023::1776176047::1::::<><><>0<>0<>95a65535a5f913f767ba613137682eb1<>res://.godot/imported/1.png-399f4e3eeee508db8c4970a97033acbc.ctex::
-2.png::CompressedTexture2D::7636417723460436662::1776176023::1776176048::1::::<><><>0<>0<>f292924d835c572c32c5302f492de721<>res://.godot/imported/2.png-4b3fde6ee9cb9f421f14679c6e25b9fa.ctex::
-3.png::CompressedTexture2D::8582204735037981208::1776176023::1776176048::1::::<><><>0<>0<>354bfa0f37e56bc4887c4113dc670031<>res://.godot/imported/3.png-15ce546f50301e42620bd8b1e3bba8ae.ctex::
-4.png::CompressedTexture2D::3876033917635898974::1776176023::1776176048::1::::<><><>0<>0<>d8a927e7aeaa23e4b42af0bbb2f70def<>res://.godot/imported/4.png-9072c998ef533e6fab15e34a6a140232.ctex::
-5.png::CompressedTexture2D::8148490898577247666::1776176023::1776176048::1::::<><><>0<>0<>e94155fd5b92358d6d6fc549447cec9d<>res://.godot/imported/5.png-e3e543af8999b8cb2c5fda6a56ab647c.ctex::
-6.png::CompressedTexture2D::3896838959378314901::1776176023::1776176047::1::::<><><>0<>0<>dbed7ece8e92fc0b3b4d9f6dd0ee6faa<>res://.godot/imported/6.png-321492b901fbe4d861f665d0f68fc85a.ctex::
-dead forest.png::CompressedTexture2D::5563674982343609552::1776176023::1776176049::1::::<><><>0<>0<>c9a531c1ba8baf6f04f2745e53bde84d<>res://.godot/imported/dead forest.png-0e7bc953766fcd721f2fa80e2cef499e.ctex::
-::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/::1776176049
-COUPON.png::CompressedTexture2D::9151550834440535311::1776176023::1776176049::1::::<><><>0<>0<>b1e755076983049b81ee1a2744172b3b<>res://.godot/imported/COUPON.png-e19bff2e782e2b9fab3eb4edc6ab323d.ctex::
-Font.txt::TextFile::-1::1776176023::0::1::::<><><>0<>0<><>::
-Licens.txt::TextFile::-1::1776176023::0::1::::<><><>0<>0<><>::
-::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/PSD/::1776176024
-::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Archer/::1776176046
-Arrow.png::CompressedTexture2D::7715090470132691074::1776176023::1776176046::1::::<><><>0<>0<>f827bde9a4d5ad354da3a9830e522c5e<>res://.godot/imported/Arrow.png-561b65c05cbb104f8c160a9ad2284f5e.ctex::
-Attack_1.png::CompressedTexture2D::4471429437087380058::1776176023::1776176046::1::::<><><>0<>0<>f20672e4737693db766096e98889dbab<>res://.godot/imported/Attack_1.png-824b98ec5731747d3a6e6b547e37c108.ctex::
-Attack_2.png::CompressedTexture2D::1330042088344652049::1776176023::1776176046::1::::<><><>0<>0<>b7bbf79dcd3c4487480f9ae08caa0e60<>res://.godot/imported/Attack_2.png-2360bda360f4456b7faf8f7db3810346.ctex::
-Attack_3.png::CompressedTexture2D::973957637108996507::1776176023::1776176046::1::::<><><>0<>0<>79b246ea34752180dcfe6cac30d27a9b<>res://.godot/imported/Attack_3.png-89d9d89bad3d24b10a8161bc125dc031.ctex::
-Dead.png::CompressedTexture2D::7233892035499300790::1776176023::1776176046::1::::<><><>0<>0<>4d3a500f6bacebb7f37986c81e5159ee<>res://.godot/imported/Dead.png-e99cfe868255390017312ee88e1188d4.ctex::
-Evasion.png::CompressedTexture2D::8345230697191366914::1776176023::1776176046::1::::<><><>0<>0<>f4bc5fb13dfb09f7af2b3616e0973cd6<>res://.godot/imported/Evasion.png-61cf7b24ea64797ea3b3c3fbed717bde.ctex::
-Hurt.png::CompressedTexture2D::3325919170363123956::1776176023::1776176046::1::::<><><>0<>0<>fadc95da63824acfc584166f95798097<>res://.godot/imported/Hurt.png-a099fb9c617f4aff174c7158ed1356d0.ctex::
-Idle.png::CompressedTexture2D::4965810679012326583::1776176023::1776176046::1::::<><><>0<>0<>d42dc4e70f3fb73719f0ad28d34d0900<>res://.godot/imported/Idle.png-e2f9a1e82e317982e8222974ad804578.ctex::
-Shot_1.png::CompressedTexture2D::7991247966783609225::1776176023::1776176046::1::::<><><>0<>0<>b61d1e5a6825d10126777786884297e1<>res://.godot/imported/Shot_1.png-b108b5f73529467fe03178e0a27d8a0c.ctex::
-Shot_2.png::CompressedTexture2D::4244264110445198855::1776176023::1776176046::1::::<><><>0<>0<>3ef552d1537c94f95758bb4d3188f9d3<>res://.godot/imported/Shot_2.png-ea767d02bc6152bc7ef9d7136d706824.ctex::
-Walk.png::CompressedTexture2D::8694426725259699876::1776176023::1776176046::1::::<><><>0<>0<>5eb62705ae77d0f0a4d77ea4cc769260<>res://.godot/imported/Walk.png-ddd4b51d48f8b76b84e4fbedec1b748a.ctex::
-::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Spearman/::1776176049
-Attack_1.png::CompressedTexture2D::9083368501498167460::1776176023::1776176049::1::::<><><>0<>0<>5a6d6c2097c19e11f0c095e1be092e05<>res://.godot/imported/Attack_1.png-6dc3677c8c98c42adeaa78dd7da7cbf0.ctex::
-Attack_2.png::CompressedTexture2D::2174587576215712489::1776176023::1776176049::1::::<><><>0<>0<>f162ff679f49c39df1585c5bf7f43188<>res://.godot/imported/Attack_2.png-e365f4f6d695e876d0fc435bc6e97e86.ctex::
-Dead.png::CompressedTexture2D::3992520706857434702::1776176023::1776176049::1::::<><><>0<>0<>55dec90ad27251a14d4bb04e1a4d0354<>res://.godot/imported/Dead.png-b0ee8b0521a86b9d05251ae58c9df77b.ctex::
-Fall.png::CompressedTexture2D::3009486942914902560::1776176023::1776176049::1::::<><><>0<>0<>a394a4962ca64f1cd217a68f4af19347<>res://.godot/imported/Fall.png-e525f083c9df3d209a84cb781840ba82.ctex::
-Hurt.png::CompressedTexture2D::5888061032069563146::1776176023::1776176049::1::::<><><>0<>0<>8de4fdd468c1142c8541b3e1ed6c4270<>res://.godot/imported/Hurt.png-e399e94cc8ed673fe9335e2621dba924.ctex::
-Idle.png::CompressedTexture2D::9162736997284022181::1776176023::1776176049::1::::<><><>0<>0<>5cd734a294613a0f1556e6bde5f5ada2<>res://.godot/imported/Idle.png-6c35ebc5cf9bb44e937ef575a0d46039.ctex::
-Protect.png::CompressedTexture2D::8206499885008579229::1776176023::1776176049::1::::<><><>0<>0<>ec82ef1ae6b9e90e44aa1f7ee1aa65ac<>res://.godot/imported/Protect.png-dba3f3a26fb37c37d870cb3c58376b29.ctex::
-Run+attack.png::CompressedTexture2D::8802268078054507254::1776176023::1776176049::1::::<><><>0<>0<>aa50ef3ec53da0996642830cf51b265c<>res://.godot/imported/Run+attack.png-6fdd5d2ed824d8e8ea0bd59acc061e72.ctex::
-Run.png::CompressedTexture2D::4925624351354719959::1776176023::1776176049::1::::<><><>0<>0<>290e5e9f1bf09e4e3c3cf62998188798<>res://.godot/imported/Run.png-4d7f9f05a63ce78546349645d8b10fdc.ctex::
-Walk.png::CompressedTexture2D::1857452034909081325::1776176023::1776176049::1::::<><><>0<>0<>13f8443256ddf01e0d4cdd890a2ff778<>res://.godot/imported/Walk.png-6ebde0a02bc226350526ce27116b89d3.ctex::
-::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/::1776176049
-Attack_1.png::CompressedTexture2D::6701408966835376408::1776176023::1776176049::1::::<><><>0<>0<>7cc85431b781ba240d1279f44a146d08<>res://.godot/imported/Attack_1.png-0e595b05d3754df46bb477ecd948d582.ctex::
-Attack_2.png::CompressedTexture2D::5016716811572054768::1776176023::1776176049::1::::<><><>0<>0<>e903ac11c195a95e1b02ba01c2fb5946<>res://.godot/imported/Attack_2.png-d6032dbe8ca62364f26b7ca3878b5fde.ctex::
-Attack_3.png::CompressedTexture2D::1126015657102496702::1776176023::1776176049::1::::<><><>0<>0<>88780da1eb5568739d0ec053c4e20072<>res://.godot/imported/Attack_3.png-2d71161f2c2678a880fc251ede2158e9.ctex::
-Dead.png::CompressedTexture2D::3919311342649766995::1776176023::1776176048::1::::<><><>0<>0<>9410bdaa6c2904e07703cbf320b60cc9<>res://.godot/imported/Dead.png-8e51894abc100ff4c970b03ec41b1be9.ctex::
-Hurt.png::CompressedTexture2D::5352141033213285414::1776176023::1776176048::1::::<><><>0<>0<>4b92c0a5064cb4b5a313821bf77df4a8<>res://.godot/imported/Hurt.png-110f77e34ce685afdabd9c20321484de.ctex::
-Idle.png::CompressedTexture2D::2742302227871642600::1776176023::1776176048::1::::<><><>0<>0<>bb4d55c75bcd594b59d41485c66f6916<>res://.godot/imported/Idle.png-244a3f6983ccd0c40c34684a29730f8a.ctex::
-Protect.png::CompressedTexture2D::2059162384032380822::1776176023::1776176048::1::::<><><>0<>0<>3850163e8de6e5945d7b92d5cc946847<>res://.godot/imported/Protect.png-86f3a1315cbc0721aeb9f28bcd07467e.ctex::
-Run+attack.png::CompressedTexture2D::8958296846230162261::1776176023::1776176048::1::::<><><>0<>0<>b10a21e95470f75b532ddf7e1870552b<>res://.godot/imported/Run+attack.png-fc8cc8b52e52f042a953bcf38635ff50.ctex::
-Run.png::CompressedTexture2D::1662242530067935357::1776176023::1776176048::1::::<><><>0<>0<>88fc3a9c9bc48424a8624f637e40a87e<>res://.godot/imported/Run.png-9ded580018554c72c3adf755ce1735ae.ctex::
-Walk.png::CompressedTexture2D::8323056595366662511::1776176023::1776176048::1::::<><><>0<>0<>72e0b0ab423dfdabca6091046cda7348<>res://.godot/imported/Walk.png-87acf8c3a6548eb575388e39be9b71ab.ctex::
-::res://Assets/Minotaur_1/::1776176048
-Attack.png::CompressedTexture2D::643178847881995015::1776176022::1776176048::1::::<><><>0<>0<>72a4b6a7d71bf15ad26283b6bdad8b73<>res://.godot/imported/Attack.png-ecae369f5900d1cb58ad8f5cc15a2d8e.ctex::
-Dead.png::CompressedTexture2D::2043013427265721095::1776176022::1776176048::1::::<><><>0<>0<>57ea5b18d73730b82c7c621a68667c5a<>res://.godot/imported/Dead.png-bed9a32ef2a2adf0909e462245124433.ctex::
-Hurt.png::CompressedTexture2D::6542327315684774421::1776176022::1776176048::1::::<><><>0<>0<>9a29a8d353b0c2f27def088511cb99b2<>res://.godot/imported/Hurt.png-2b8425b738ceb8f0fad032ca0185d7d8.ctex::
-Idle.png::CompressedTexture2D::654409145535227209::1776176022::1776176048::1::::<><><>0<>0<>7ff8d79e110302286c64dd4725b93547<>res://.godot/imported/Idle.png-aa1701636457ed6e548018c65d355f51.ctex::
-Walk.png::CompressedTexture2D::6987866082000290235::1776176022::1776176048::1::::<><><>0<>0<>dc0ea806a5f435bb15d25ca77552ecfe<>res://.godot/imported/Walk.png-6bf0538ff82e6c10490e72e986fd49f4.ctex::
-::res://atores/::1776176023
-boss.gd::GDScript::3350071064643277829::1776176023::0::1::::<>CharacterBody2D<><>0<>0<><>::
-boss.tscn::PackedScene::9079704002843570148::1776176023::0::1::::<><><>0<>0<><>::uid://bny2gfhmk6htl::::res://atores/boss.gd<>uid://jftcdjj2s440::::res://Assets/Minotaur_1/Attack.png<>uid://4dwermbdb2nj::::res://Assets/Minotaur_1/Dead.png<>uid://c0hff7l5yulu8::::res://Assets/Minotaur_1/Hurt.png<>uid://jlaa1uv5vxf2::::res://Assets/Minotaur_1/Idle.png<>uid://c6s8esima32sl::::res://Assets/Minotaur_1/Walk.png
-inimigo.tscn::PackedScene::2389316925167933421::1776176023::0::1::::<><><>0<>0<><>::uid://tqljluu3jkk6::::res://scripts/inimigo.gd<>uid://dqt0r5gkjloap::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Walk.png<>uid://c2qhhx7d7t4bk::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Attack_1.png<>uid://cdqeufoyrltq3::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Attack_2.png<>uid://bfcnk1q34ik6s::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Idle.png<>uid://ciiu8l4x1fq5c::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Hurt.png<>uid://qbpkwijvgook::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Attack_3.png<>uid://bv3sqq5dnp428::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Dead.png<>uid://xxg5kx8jrco8::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Run.png
-jogador.tscn::PackedScene::4723687519789480306::1776176023::0::1::::<><><>0<>0<><>::uid://cf2ucly6up5d6::::res://scripts/jogador.gd<>uid://ccikrbvlbtgpx::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Attack 1.png<>uid://btds8qnkue5w2::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Attack 2.png<>uid://cecew0hptajq6::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Attack 3.png<>uid://4xfrwcq0rntc::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Dead.png<>uid://4g25pchfpjy4::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Idle.png<>uid://b25vhhc85w2er::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Jump.png<>uid://6cbq185coal1::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Run.png<>uid://vkr6j6chdd2y::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Protect.png
-mundo.tscn::PackedScene::3462961434399326327::1776176023::0::1::::<><><>0<>0<><>::uid://dnft8pr3v1fye::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_2/Idle.png<>uid://cljc6cxvsnpmu::::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/4/dead forest.png<>uid://cf2ucly6up5d6::::res://scripts/jogador.gd<>uid://babnx28j20l8h::::res://Assets/inimigo.tscn<>uid://vhy85edalmxv::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_2/Jump.png<>uid://sthx0libdpk8::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_2/Run.png
-::res://prefabs/::1776176023
-hitbox.tscn::PackedScene::1039806411851473452::1776176023::0::1::::<><><>0<>0<><>::uid://cfyplcjdjnpid::::res://scripts/hitbox.gd
-::res://scripts/::1776176023
-hitbox.gd::GDScript::5174261169397051367::1776176023::0::1::::<>Area2D<><>0<>0<><>::
-inimigo.gd::GDScript::1367302641852578339::1776176023::0::1::::<>CharacterBody2D<><>0<>0<><>::
-jogador.gd::GDScript::5180742312647123861::1776176023::0::1::::<>CharacterBody2D<><>0<>0<><>::
-wrap_manager.gd::GDScript::639603192939568459::1776176023::0::1::::<>Node<><>0<>0<><>::
+::res://::1776295629
+icon.svg::CompressedTexture2D::4279711088376102858::1775772713::1775775468::1::::<><><>0<>0<>deba2c9e5313084a42d68686d7fbd7d4<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+mundo.gd::GDScript::4432792499562839420::1776294739::0::1::::<>Node2D<><>0<>0<><>::
+mundo.tscn::PackedScene::3039717920022126474::1776294739::0::1::::<><><>0<>0<><>::uid://cljc6cxvsnpmu::::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/4/dead forest.png<>uid://b4fjpehsvcpr5::::res://mundo.gd<>uid://babnx28j20l8h::::res://atores/inimigo.tscn<>uid://b8kgpcp6ggtdq::::res://atores/jogador.tscn<>uid://b15mkt1f4ilx6::::res://spawner.gd
+spawner.gd::GDScript::4274009451130809225::1776293966::0::1::::<>Node2D<><>0<>0<><>::
+::res://Assets/::1776295370
+hitbox.tscn::PackedScene::5568541935345109181::1775772713::0::1::::<><><>0<>0<><>::uid://cfyplcjdjnpid::::res://scripts/hitbox.gd
+inimigo.tscn::PackedScene::2731820295432092571::1775772713::0::1::::<><><>0<>0<><>::uid://tqljluu3jkk6::::res://scripts/inimigo.gd<>uid://dqt0r5gkjloap::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Walk.png<>uid://ciiu8l4x1fq5c::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Hurt.png
+::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/::1775775472
+COUPON.png::CompressedTexture2D::8660144148190631267::1775772710::1775775472::1::::<><><>0<>0<>6b7bb3da203374e70cc4e3c398cb4449<>res://.godot/imported/COUPON.png-16fc40f15a1776e90ec91bed408f8c98.ctex::
+Font.txt::TextFile::-1::1775772710::0::1::::<><><>0<>0<><>::
+License.txt::TextFile::-1::1775772710::0::1::::<><><>0<>0<><>::
+::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/__MACOSX/::1775775463
+._COUPON.png::CompressedTexture2D::6460971535996395691::1775772711::1775775463::0::::<><><>0<>0<>000567d02a27cbaf143f71949e014bde<>::
+._Font.txt::TextFile::-1::1775772711::0::1::::<><><>0<>0<><>::
+._License.txt::TextFile::-1::1775772711::0::1::::<><><>0<>0<><>::
+::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/__MACOSX/Knight_1/::1775775463
+._Attack 1.png::CompressedTexture2D::9140707478531545190::1775772711::1775775463::0::::<><><>0<>0<>2297d7ee893dc03b1ae3ca89ed9812f0<>::
+._Attack 2.png::CompressedTexture2D::3202141950990701180::1775772711::1775775463::0::::<><><>0<>0<>d5775dc0cf893b835fdb2d8dd112d5ef<>::
+._Attack 3.png::CompressedTexture2D::8954710280913623605::1775772711::1775775463::0::::<><><>0<>0<>77fde15d2762a22abba7b6ceaff22fb1<>::
+._Dead.png::CompressedTexture2D::7004932268989006212::1775772711::1775775463::0::::<><><>0<>0<>508b3601f354dd2135e46a74d25f5957<>::
+._Defend.png::CompressedTexture2D::623803130295139658::1775772711::1775775463::0::::<><><>0<>0<>6c44c47e4c3830205a22bf9ac55f8b52<>::
+._Hurt.png::CompressedTexture2D::8516315677682612500::1775772711::1775775463::0::::<><><>0<>0<>f99bff9cf944c4031652cd89ec29b7ee<>::
+._Idle.png::CompressedTexture2D::5624069564647228909::1775772711::1775775463::0::::<><><>0<>0<>28f6ff675e5e3ca88bf804f429d001e3<>::
+._Jump.png::CompressedTexture2D::342538654084389059::1775772711::1775775463::0::::<><><>0<>0<>2e6ed09d2a2a07d8f50332bac58b5c62<>::
+._Protect.png::CompressedTexture2D::2483042578047882899::1775772711::1775775463::0::::<><><>0<>0<>16ab2438e36b3c1ed4542e8b22fc6813<>::
+._Run+Attack.png::CompressedTexture2D::1475579022373918279::1775772711::1775775463::0::::<><><>0<>0<>41a97b9399c0ab509207f139496beebd<>::
+._Run.png::CompressedTexture2D::8827143896750039346::1775772711::1775775463::0::::<><><>0<>0<>fb79546832c85a5228095458c2f34148<>::
+._Walk.png::CompressedTexture2D::5507970549655977481::1775772711::1775775463::0::::<><><>0<>0<>ee632f5e41c03fdc86c1a4a7a8647bb0<>::
+::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/__MACOSX/Knight_2/::1775775463
+._Attack 1.png::CompressedTexture2D::530063474506179215::1775772711::1775775463::0::::<><><>0<>0<>af8a501d68abb4b6a60d177437f0fc7b<>::
+._Attack 2.png::CompressedTexture2D::7493003448793564757::1775772711::1775775463::0::::<><><>0<>0<>a789a4c3d901bd09ca8cb7066d209c36<>::
+._Attack 3.png::CompressedTexture2D::1710506829898275345::1775772711::1775775463::0::::<><><>0<>0<>a3db13b63152f78daa602fe7aeaf871a<>::
+._Dead.png::CompressedTexture2D::989998158755504473::1775772711::1775775463::0::::<><><>0<>0<>c2ef9e5fec8f1b357551e39b6e788eed<>::
+._Defend.png::CompressedTexture2D::3362790619948756231::1775772711::1775775463::0::::<><><>0<>0<>416d3298bc68edc6b151429c5d2e101a<>::
+._Hurt.png::CompressedTexture2D::3890859768873649270::1775772711::1775775463::0::::<><><>0<>0<>ea51b896feffbf9085158103f6c65cb7<>::
+._Idle.png::CompressedTexture2D::8766835866838177878::1775772711::1775775463::0::::<><><>0<>0<>07dbe42fbb0c33ba0dbee85aca030616<>::
+._Jump.png::CompressedTexture2D::5841002622125330833::1775772711::1775775463::0::::<><><>0<>0<>5a6b74b25981f07ffac8e81164a90e18<>::
+._Protect.png::CompressedTexture2D::6760245268998180214::1775772711::1775775463::0::::<><><>0<>0<>66eb1c2def07b9425eef99848aa3d448<>::
+._Run+Attack.png::CompressedTexture2D::6091057874999318131::1775772711::1775775463::0::::<><><>0<>0<>d2d08e4dde0ddcff8547e2f7463f0a9e<>::
+._Run.png::CompressedTexture2D::567704809912133299::1775772711::1775775462::0::::<><><>0<>0<>2af9150434cf1bc03a05d383365f71dc<>::
+._Walk.png::CompressedTexture2D::7023673035417527833::1775772711::1775775462::0::::<><><>0<>0<>4eb04358998b47d11f5e48615b53b35c<>::
+::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/__MACOSX/Knight_3/::1775775462
+._Attack 1.png::CompressedTexture2D::3046626784787123159::1775772711::1775775462::0::::<><><>0<>0<>fdb67e7070d50960a659885427976b3e<>::
+._Attack 2.png::CompressedTexture2D::7788432960420037669::1775772711::1775775462::0::::<><><>0<>0<>37ade7c104c8a5db334831b2ba67b766<>::
+._Attack 3.png::CompressedTexture2D::2323132687779646068::1775772711::1775775462::0::::<><><>0<>0<>795805f17e533745b651bbcc5b5b96c1<>::
+._Dead.png::CompressedTexture2D::8202158749898565531::1775772711::1775775462::0::::<><><>0<>0<>186e1290b3a1d1b92e449d693ad03785<>::
+._Defend.png::CompressedTexture2D::8463463567272443370::1775772711::1775775462::0::::<><><>0<>0<>04701e7b305c02faa39f58ad16015f1d<>::
+._Hurt.png::CompressedTexture2D::2512917408068945727::1775772711::1775775462::0::::<><><>0<>0<>4b4e418b1d25ac94b47ec2b365fb2901<>::
+._Idle.png::CompressedTexture2D::604667779141283231::1775772711::1775775462::0::::<><><>0<>0<>b966a5707b94a5660a1a3c48d6fb2658<>::
+._Jump.png::CompressedTexture2D::8774184011881981506::1775772711::1775775462::0::::<><><>0<>0<>0dbe355883030fe0ed42dcfa2c7e181f<>::
+._Protect.png::CompressedTexture2D::2920833259703662553::1775772711::1775775462::0::::<><><>0<>0<>c6f131a5d0ff29b4b0074a3102c66585<>::
+._Run+Attack.png::CompressedTexture2D::8929409523842694991::1775772711::1775775462::0::::<><><>0<>0<>8c59dd84e35791cd7533163f4ddf6172<>::
+._Run.png::CompressedTexture2D::3960525307117186526::1775772711::1775775462::0::::<><><>0<>0<>f989c6e85662efc74cdebc9c853ec8c9<>::
+._Walk.png::CompressedTexture2D::3801742474902097846::1775772711::1775775462::0::::<><><>0<>0<>4262abf5fcc6bfce5656ae06ff8cef7a<>::
+::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/__MACOSX/PSD/::1775775463
+._knight1_spritelist_1.png::CompressedTexture2D::3794742433473877782::1775772711::1775775462::0::::<><><>0<>0<>264dab28bd1fdbaf89c837dc3ba2c1ef<>::
+._knight1_spritelist_2.png::CompressedTexture2D::6137916105652540924::1775772711::1775775463::0::::<><><>0<>0<>5225eaa7adc8ea631550387b53273b89<>::
+._knight2_spritelist_1.png::CompressedTexture2D::3550814140883402863::1775772711::1775775463::0::::<><><>0<>0<>383fc9e47ae4740c18ea0226826c44a2<>::
+._knight2_spritelist_2.png::CompressedTexture2D::6539669466782726965::1775772711::1775775463::0::::<><><>0<>0<>70904d0e2fe3ce6093ddc4f05f83815f<>::
+._knight3_spritelist_1.png::CompressedTexture2D::9114632066421383274::1775772711::1775775463::0::::<><><>0<>0<>89b50c09b082dd679d5b0b424e3ead94<>::
+._knight3_spritelist_2.png::CompressedTexture2D::7977038022176724008::1775772711::1775775463::0::::<><><>0<>0<>10c89610ae9d56dc3f8a7f3c4dfe8d51<>::
+::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/::1775775470
+Attack 1.png::CompressedTexture2D::4930371690584916085::1775772710::1775775470::1::::<><><>0<>0<>10d3167a182d21f8293d87f74fd95607<>res://.godot/imported/Attack 1.png-7a7cf9364472c49c71074ef45aa73529.ctex::
+Attack 2.png::CompressedTexture2D::3727354544083886943::1775772710::1775775470::1::::<><><>0<>0<>844ee9389197f968d7b3ef052017e4f7<>res://.godot/imported/Attack 2.png-d577c1805dd6bf17b2e96b0327838551.ctex::
+Attack 3.png::CompressedTexture2D::5058008977487742003::1775772710::1775775470::1::::<><><>0<>0<>fc383f68c5d00f2536595feefca59f26<>res://.godot/imported/Attack 3.png-b576c50fc68053f9f9eae811724c5ad2.ctex::
+Dead.png::CompressedTexture2D::2083292256670900564::1775772710::1775775470::1::::<><><>0<>0<>688156e8a0f303faddb5e767fb083473<>res://.godot/imported/Dead.png-3de38f269e3949b93d41e96e0ab7d261.ctex::
+Defend.png::CompressedTexture2D::4470353328781554850::1775772710::1775775470::1::::<><><>0<>0<>7eaf1fa741b2efaa53c9e674e72b0bad<>res://.godot/imported/Defend.png-25f865786ef0f99b18a24de042ccdcdc.ctex::
+Hurt.png::CompressedTexture2D::8962578347798888642::1775772710::1775775470::1::::<><><>0<>0<>054a77df5bcf818dd03bd7d3a68ef60b<>res://.godot/imported/Hurt.png-f4c196b7c8b4c2c7baaa14c4fdea82c4.ctex::
+Idle.png::CompressedTexture2D::2049556455914330649::1775772710::1775775470::1::::<><><>0<>0<>0cb9e7496e24452c6469eb2cf6341986<>res://.godot/imported/Idle.png-64effca2194ae8d0de0778e97cc241a3.ctex::
+Jump.png::CompressedTexture2D::4344738724240613685::1775772710::1775775470::1::::<><><>0<>0<>e0958329d0a051398e7419f1f48dd107<>res://.godot/imported/Jump.png-f7358259a09abf1d6f8e0598db8cc5c1.ctex::
+Protect.png::CompressedTexture2D::1495697563126795202::1775772710::1775775470::1::::<><><>0<>0<>d591c7abac35cbce799c3c2fe1feefdb<>res://.godot/imported/Protect.png-298d98cfa617abe74cd22b9052ca81fe.ctex::
+Run+Attack.png::CompressedTexture2D::2917840900441105255::1775772710::1775775470::1::::<><><>0<>0<>8b456cfc8097fbc9a77c4c3ef8252e98<>res://.godot/imported/Run+Attack.png-de135815e2aad8bf1d9e0005301f50d5.ctex::
+Run.png::CompressedTexture2D::2180073615934303776::1775772710::1775775470::1::::<><><>0<>0<>88d5291747b15191f55c115492830e06<>res://.godot/imported/Run.png-2c8604375770ba125a56bf60d06d23d7.ctex::
+Walk.png::CompressedTexture2D::9187412180372014321::1775772710::1775775470::1::::<><><>0<>0<>2e21a853811cc5620445b0f04a539eaf<>res://.godot/imported/Walk.png-e03ea6a69532282556bad83074a869de.ctex::
+::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_2/::1775775470
+Attack 1.png::CompressedTexture2D::1931778155744543153::1775772710::1775775470::1::::<><><>0<>0<>df55abc07cb4bbdba2d3c678fc78f67b<>res://.godot/imported/Attack 1.png-fa442cf3bf2fc47efd3a1179346e7bdd.ctex::
+Attack 2.png::CompressedTexture2D::5364845196068841647::1775772710::1775775470::1::::<><><>0<>0<>66854d26e031383e1503f36892078b65<>res://.godot/imported/Attack 2.png-7869239204befa45c10a8dbcc5e36839.ctex::
+Attack 3.png::CompressedTexture2D::8630915700960621558::1775772710::1775775470::1::::<><><>0<>0<>728ce465af1338f5294b34284201703d<>res://.godot/imported/Attack 3.png-f43bceb28409284b712bdb6a7fe27450.ctex::
+Dead.png::CompressedTexture2D::383652777144759863::1775772710::1775775470::1::::<><><>0<>0<>e6bed58383e7aedfdc1b36e1326ce8e1<>res://.godot/imported/Dead.png-cce58eeeaf65fab38c30cede331dbc82.ctex::
+Defend.png::CompressedTexture2D::7291704999260865587::1775772710::1775775470::1::::<><><>0<>0<>d44037f7309fee09277f65f758ac7481<>res://.godot/imported/Defend.png-0c01a0d86943b42b4b2715620af43e1d.ctex::
+Hurt.png::CompressedTexture2D::3935136833983673873::1775772710::1775775470::1::::<><><>0<>0<>266e284ea4fcd59803ab7167fe3070a5<>res://.godot/imported/Hurt.png-0b563062ba1020d34933bf80bf9a801b.ctex::
+Idle.png::CompressedTexture2D::8083252276618658088::1775772710::1775775470::1::::<><><>0<>0<>3e03dc0a0c11d02fe89b57845762d4d1<>res://.godot/imported/Idle.png-1da2e06e47067c779a96242870c864ee.ctex::
+Jump.png::CompressedTexture2D::1489934081718830475::1775772710::1775775470::1::::<><><>0<>0<>ea50224aa429e98fd3db67199f012cb7<>res://.godot/imported/Jump.png-a141262adc10a385c367618cb5839d41.ctex::
+Protect.png::CompressedTexture2D::6638215415871948532::1775772710::1775775470::1::::<><><>0<>0<>512ccce165efa562ca0b9b41e46c858a<>res://.godot/imported/Protect.png-7fcb17f56f76e4756821b1599996dbdc.ctex::
+Run+Attack.png::CompressedTexture2D::7714705075382398380::1775772710::1775775470::1::::<><><>0<>0<>424c641f74bb544c12773d621f084fbb<>res://.godot/imported/Run+Attack.png-1e190fb8d98fe770af56b4278a180c3c.ctex::
+Run.png::CompressedTexture2D::1303089785462454041::1775772710::1775775470::1::::<><><>0<>0<>4959c2a8e7b0591b682dc3aaeca068d9<>res://.godot/imported/Run.png-d59284b02457a2ff1d278d61e5ad5492.ctex::
+Walk.png::CompressedTexture2D::3669865076828968095::1775772710::1775775470::1::::<><><>0<>0<>8f9226dd1cb543b3672e33674e9d4ed8<>res://.godot/imported/Walk.png-7647f52c465d401d4fc5a96c52546255.ctex::
+::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_3/::1775775473
+Attack 1.png::CompressedTexture2D::8266256462604703030::1775772710::1775775470::1::::<><><>0<>0<>379ef31d77c8c74d8ca05e2831863cc6<>res://.godot/imported/Attack 1.png-25662913810bffa00e871d58633fc210.ctex::
+Attack 2.png::CompressedTexture2D::7730169064701164875::1775772710::1775775473::1::::<><><>0<>0<>8e8a146a685bde44b29ac0c6c8bcd812<>res://.godot/imported/Attack 2.png-8831f8706c112b31858deaaf7a5f15b5.ctex::
+Attack 3.png::CompressedTexture2D::9184893388531817219::1775772710::1775775473::1::::<><><>0<>0<>a45750e224c860991b2ebc6632b169e2<>res://.godot/imported/Attack 3.png-7dbe3d99a021461708572c124da2eaa0.ctex::
+Dead.png::CompressedTexture2D::235751210732180232::1775772710::1775775473::1::::<><><>0<>0<>486e0491e887b07bc7b15fad4551935c<>res://.godot/imported/Dead.png-185ea257a23400b237fd7f3b266634a3.ctex::
+Defend.png::CompressedTexture2D::6806159549049536141::1775772710::1775775473::1::::<><><>0<>0<>1f6cba1ac98bbfd49fc92edf13676886<>res://.godot/imported/Defend.png-2fd4db9374769898bcb691c1e4a8b168.ctex::
+Hurt.png::CompressedTexture2D::9081770208921879123::1775772710::1775775473::1::::<><><>0<>0<>17c5c04549d02e67b530593f5fbc7b3e<>res://.godot/imported/Hurt.png-557d8a305c4cdb415e85486135298b63.ctex::
+Idle.png::CompressedTexture2D::5193770674013453002::1775772710::1775775473::1::::<><><>0<>0<>2ff5b5b86ce05b1d29b5046f769a06c7<>res://.godot/imported/Idle.png-7259055adc3b2967f8d55af9a3112a39.ctex::
+Jump.png::CompressedTexture2D::8888067731750811486::1775772710::1775775473::1::::<><><>0<>0<>b97435a04d4c39ef6c9d26444e3365d9<>res://.godot/imported/Jump.png-db866a16e3f6461bd15267bd1b30ed56.ctex::
+Protect.png::CompressedTexture2D::2738772926011493582::1775772710::1775775472::1::::<><><>0<>0<>b83b8393135d94f4d28a534d342c9be6<>res://.godot/imported/Protect.png-cd21107f571d9f46ab93723553886453.ctex::
+Run+Attack.png::CompressedTexture2D::8351326025009603811::1775772710::1775775472::1::::<><><>0<>0<>af1bff9d68f5dab236e085a4eae0733b<>res://.godot/imported/Run+Attack.png-fcacfcf69c627e9ae1e56431baee1637.ctex::
+Run.png::CompressedTexture2D::6101902856069235466::1775772710::1775775472::1::::<><><>0<>0<>45f178abc380c7b78092a832d94709bf<>res://.godot/imported/Run.png-c16a47da6a8d9cabade64763df3ddd3e.ctex::
+Walk.png::CompressedTexture2D::7171686479506608137::1775772710::1775775472::1::::<><><>0<>0<>51084abe551829713bce05c7f79cbf1f<>res://.godot/imported/Walk.png-655f4a4933c9493bce17b5776928817c.ctex::
+::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/PSD/::1775775472
+knight1_spritelist_1.png::CompressedTexture2D::4637163330110500931::1775772710::1775775472::1::::<><><>0<>0<>9cc6b7e8c70957b794dad27c5003e13d<>res://.godot/imported/knight1_spritelist_1.png-70e1de3ee363b93d4e5c751255c1fbae.ctex::
+knight1_spritelist_2.png::CompressedTexture2D::3261400534612373682::1775772710::1775775472::1::::<><><>0<>0<>4d84264944a797338366d4f63f2b8ba2<>res://.godot/imported/knight1_spritelist_2.png-156103349d930f68dd86e183a7b19e60.ctex::
+knight2_spritelist_1.png::CompressedTexture2D::4070171776612565420::1775772710::1775775472::1::::<><><>0<>0<>a13fbfb63ef2a13e4f3dd5df4af758cd<>res://.godot/imported/knight2_spritelist_1.png-f9b98c77ccbedd6a356cc04a5bc343d4.ctex::
+knight2_spritelist_2.png::CompressedTexture2D::2550245404328637877::1775772710::1775775472::1::::<><><>0<>0<>1f9f47b561e54ee3622692c37bb43299<>res://.godot/imported/knight2_spritelist_2.png-08d738602c3844db41fee05f59f78050.ctex::
+knight3_spritelist_1.png::CompressedTexture2D::4058241761036278662::1775772710::1775775472::1::::<><><>0<>0<>59d403f96c05166debf9437e3dd76daa<>res://.godot/imported/knight3_spritelist_1.png-6488fdbc0ca55efdbfe1109b346b8c7f.ctex::
+knight3_spritelist_2.png::CompressedTexture2D::3882662933056006676::1775772710::1775775472::1::::<><><>0<>0<>5139184cd1d0a24c98b8b6bccb2d9cda<>res://.godot/imported/knight3_spritelist_2.png-6bba38f9ae5b1a2ab230aa8e3b6ef79d.ctex::
+::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/::1775772782
+license.txt::TextFile::-1::1775772712::0::1::::<><><>0<>0<><>::
+::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/__MACOSX/::1775772712
+::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/__MACOSX/PNG/::1775772712
+::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/::1775772712
+::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/1/::1775775476
+1.png::CompressedTexture2D::8286634434877459345::1775772711::1775775472::1::::<><><>0<>0<>72e28faea1b3fa38ce8da9e5baf0888c<>res://.godot/imported/1.png-de032622f96ba4aa56a7d54a806876e7.ctex::
+2.png::CompressedTexture2D::7355969779391333246::1775772711::1775775476::1::::<><><>0<>0<>f65e54d9b8d6f4ce96b7eec59b2756ac<>res://.godot/imported/2.png-6ff8aa217e9a3b71884cac8943ebddd1.ctex::
+3.png::CompressedTexture2D::3617306871909999441::1775772711::1775775471::1::::<><><>0<>0<>85c675901416cc7c2ca8af39cea666fa<>res://.godot/imported/3.png-1a36bdff128deefdd44ebce90d56c3e9.ctex::
+4.png::CompressedTexture2D::9151003523176204949::1775772711::1775775471::1::::<><><>0<>0<>ac3103978b55e695dfdd5ea726194feb<>res://.godot/imported/4.png-f42906e99c65a85c560d2ac74c54f626.ctex::
+5.png::CompressedTexture2D::6209544973351315483::1775772711::1775775474::1::::<><><>0<>0<>c7e968ee43fc4112e113f3e49325fc96<>res://.godot/imported/5.png-655d5a2ebd6726f6771ce2c0ab293b1b.ctex::
+terrace.png::CompressedTexture2D::6011602152971071617::1775772712::1775775476::1::::<><><>0<>0<>1819c333593c83ad9b2e5eb47ae0712b<>res://.godot/imported/terrace.png-2ee0682a48ddd9960844a205a5ec6eff.ctex::
+::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/2/::1775775476
+1.png::CompressedTexture2D::5733526827100050038::1775772712::1775775472::1::::<><><>0<>0<>da7f6f621a0fead8c99eadf1f2f5e613<>res://.godot/imported/1.png-d4b851206a5530a38086c3c6c328a484.ctex::
+2.png::CompressedTexture2D::4297129055916406652::1775772712::1775775476::1::::<><><>0<>0<>aee85ecfb5295a0e1a5a0e2767260e2a<>res://.godot/imported/2.png-11259a0b43f2e3d912503bf2af4e7bc5.ctex::
+3.png::CompressedTexture2D::5868761576046668275::1775772712::1775775470::1::::<><><>0<>0<>36a613e0d5a8222e9069e83072d76048<>res://.godot/imported/3.png-71ea07ac3c7ec933a4db14b0d87b23af.ctex::
+4.png::CompressedTexture2D::1991408396983388612::1775772712::1775775470::1::::<><><>0<>0<>2b131895924c83769e20651a79c3c893<>res://.godot/imported/4.png-e2915850daec79f77fbae27a6f7ce281.ctex::
+5.png::CompressedTexture2D::1252666863163272518::1775772712::1775775469::1::::<><><>0<>0<>cf80438202767ffefb2ad8f80a52e9c2<>res://.godot/imported/5.png-d45432448be4425246e689c82201de7f.ctex::
+throne room.png::CompressedTexture2D::39086683753208199::1775772712::1775775472::1::::<><><>0<>0<>fc8ee96d5a35da42a5f2083653eef754<>res://.godot/imported/throne room.png-2d0120e5ada55cf2ce3170890c83771e.ctex::
+::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/3/::1775775472
+1.png::CompressedTexture2D::2043414003425157439::1775772712::1775775469::1::::<><><>0<>0<>f9d68a64ba194102ea97ac638aa42a86<>res://.godot/imported/1.png-38db66daaa5162e661f7e850abe712dd.ctex::
+2.png::CompressedTexture2D::6450238803205877503::1775772712::1775775472::1::::<><><>0<>0<>a70091babd4d8d326df6744af328f1ad<>res://.godot/imported/2.png-ef827519b26b709b9c202bd08905c46b.ctex::
+3.png::CompressedTexture2D::6384790759094195881::1775772712::1775775467::1::::<><><>0<>0<>044d8154f57b5ee371368cc4b8eeb8ef<>res://.godot/imported/3.png-d24451238d0154397f4b8c99b5e8212f.ctex::
+4.png::CompressedTexture2D::8920108754509613411::1775772712::1775775468::1::::<><><>0<>0<>923a131eff963ef13c051fd276dbdfd5<>res://.godot/imported/4.png-f9084d788de0a94075da35cc8d67c7b4.ctex::
+5.png::CompressedTexture2D::8465475470373027119::1775772712::1775775466::1::::<><><>0<>0<>c4d03de3e2c8e60718c1507e3a48015c<>res://.godot/imported/5.png-42bf08f7dbf196967317dd2394278e5a.ctex::
+castle.png::CompressedTexture2D::7421715944507793420::1775772712::1775775470::1::::<><><>0<>0<>62e7d11e0dc86cc9fd957743b67007fe<>res://.godot/imported/castle.png-a9c8d485b84bfde501d01313b45e69bd.ctex::
+::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/4/::1775775470
+1.png::CompressedTexture2D::2469184628241998494::1775772712::1775775465::1::::<><><>0<>0<>95a65535a5f913f767ba613137682eb1<>res://.godot/imported/1.png-399f4e3eeee508db8c4970a97033acbc.ctex::
+2.png::CompressedTexture2D::7636417723460436662::1775772712::1775775468::1::::<><><>0<>0<>f292924d835c572c32c5302f492de721<>res://.godot/imported/2.png-4b3fde6ee9cb9f421f14679c6e25b9fa.ctex::
+3.png::CompressedTexture2D::8582204735037981208::1775772712::1775775467::1::::<><><>0<>0<>354bfa0f37e56bc4887c4113dc670031<>res://.godot/imported/3.png-15ce546f50301e42620bd8b1e3bba8ae.ctex::
+4.png::CompressedTexture2D::3876033917635898974::1775772712::1775775467::1::::<><><>0<>0<>d8a927e7aeaa23e4b42af0bbb2f70def<>res://.godot/imported/4.png-9072c998ef533e6fab15e34a6a140232.ctex::
+5.png::CompressedTexture2D::8148490898577247666::1775772712::1775775467::1::::<><><>0<>0<>e94155fd5b92358d6d6fc549447cec9d<>res://.godot/imported/5.png-e3e543af8999b8cb2c5fda6a56ab647c.ctex::
+6.png::CompressedTexture2D::3896838959378314901::1775772712::1775775465::1::::<><><>0<>0<>dbed7ece8e92fc0b3b4d9f6dd0ee6faa<>res://.godot/imported/6.png-321492b901fbe4d861f665d0f68fc85a.ctex::
+dead forest.png::CompressedTexture2D::5563674982343609552::1775772712::1775775470::1::::<><><>0<>0<>c9a531c1ba8baf6f04f2745e53bde84d<>res://.godot/imported/dead forest.png-0e7bc953766fcd721f2fa80e2cef499e.ctex::
+::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/::1775775469
+COUPON.png::CompressedTexture2D::9151550834440535311::1775772712::1775775469::1::::<><><>0<>0<>b1e755076983049b81ee1a2744172b3b<>res://.godot/imported/COUPON.png-e19bff2e782e2b9fab3eb4edc6ab323d.ctex::
+Font.txt::TextFile::-1::1775772712::0::1::::<><><>0<>0<><>::
+Licens.txt::TextFile::-1::1775772712::0::1::::<><><>0<>0<><>::
+::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/PSD/::1775772718
+::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Archer/::1775775470
+Arrow.png::CompressedTexture2D::7715090470132691074::1775772712::1775775463::1::::<><><>0<>0<>f827bde9a4d5ad354da3a9830e522c5e<>res://.godot/imported/Arrow.png-561b65c05cbb104f8c160a9ad2284f5e.ctex::
+Attack_1.png::CompressedTexture2D::4471429437087380058::1775772712::1775775463::1::::<><><>0<>0<>f20672e4737693db766096e98889dbab<>res://.godot/imported/Attack_1.png-824b98ec5731747d3a6e6b547e37c108.ctex::
+Attack_2.png::CompressedTexture2D::1330042088344652049::1775772712::1775775463::1::::<><><>0<>0<>b7bbf79dcd3c4487480f9ae08caa0e60<>res://.godot/imported/Attack_2.png-2360bda360f4456b7faf8f7db3810346.ctex::
+Attack_3.png::CompressedTexture2D::973957637108996507::1775772712::1775775463::1::::<><><>0<>0<>79b246ea34752180dcfe6cac30d27a9b<>res://.godot/imported/Attack_3.png-89d9d89bad3d24b10a8161bc125dc031.ctex::
+Dead.png::CompressedTexture2D::7233892035499300790::1775772712::1775775463::1::::<><><>0<>0<>4d3a500f6bacebb7f37986c81e5159ee<>res://.godot/imported/Dead.png-e99cfe868255390017312ee88e1188d4.ctex::
+Evasion.png::CompressedTexture2D::8345230697191366914::1775772712::1775775464::1::::<><><>0<>0<>f4bc5fb13dfb09f7af2b3616e0973cd6<>res://.godot/imported/Evasion.png-61cf7b24ea64797ea3b3c3fbed717bde.ctex::
+Hurt.png::CompressedTexture2D::3325919170363123956::1775772712::1775775464::1::::<><><>0<>0<>fadc95da63824acfc584166f95798097<>res://.godot/imported/Hurt.png-a099fb9c617f4aff174c7158ed1356d0.ctex::
+Idle.png::CompressedTexture2D::4965810679012326583::1775772712::1775775464::1::::<><><>0<>0<>d42dc4e70f3fb73719f0ad28d34d0900<>res://.godot/imported/Idle.png-e2f9a1e82e317982e8222974ad804578.ctex::
+Shot_1.png::CompressedTexture2D::7991247966783609225::1775772712::1775775470::1::::<><><>0<>0<>b61d1e5a6825d10126777786884297e1<>res://.godot/imported/Shot_1.png-b108b5f73529467fe03178e0a27d8a0c.ctex::
+Shot_2.png::CompressedTexture2D::4244264110445198855::1775772712::1775775470::1::::<><><>0<>0<>3ef552d1537c94f95758bb4d3188f9d3<>res://.godot/imported/Shot_2.png-ea767d02bc6152bc7ef9d7136d706824.ctex::
+Walk.png::CompressedTexture2D::8694426725259699876::1775772712::1775775470::1::::<><><>0<>0<>5eb62705ae77d0f0a4d77ea4cc769260<>res://.godot/imported/Walk.png-ddd4b51d48f8b76b84e4fbedec1b748a.ctex::
+::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Spearman/::1775775469
+Attack_1.png::CompressedTexture2D::9083368501498167460::1775772712::1775775469::1::::<><><>0<>0<>5a6d6c2097c19e11f0c095e1be092e05<>res://.godot/imported/Attack_1.png-6dc3677c8c98c42adeaa78dd7da7cbf0.ctex::
+Attack_2.png::CompressedTexture2D::2174587576215712489::1775772712::1775775469::1::::<><><>0<>0<>f162ff679f49c39df1585c5bf7f43188<>res://.godot/imported/Attack_2.png-e365f4f6d695e876d0fc435bc6e97e86.ctex::
+Dead.png::CompressedTexture2D::3992520706857434702::1775772712::1775775469::1::::<><><>0<>0<>55dec90ad27251a14d4bb04e1a4d0354<>res://.godot/imported/Dead.png-b0ee8b0521a86b9d05251ae58c9df77b.ctex::
+Fall.png::CompressedTexture2D::3009486942914902560::1775772712::1775775469::1::::<><><>0<>0<>a394a4962ca64f1cd217a68f4af19347<>res://.godot/imported/Fall.png-e525f083c9df3d209a84cb781840ba82.ctex::
+Hurt.png::CompressedTexture2D::5888061032069563146::1775772712::1775775469::1::::<><><>0<>0<>8de4fdd468c1142c8541b3e1ed6c4270<>res://.godot/imported/Hurt.png-e399e94cc8ed673fe9335e2621dba924.ctex::
+Idle.png::CompressedTexture2D::9162736997284022181::1775772712::1775775469::1::::<><><>0<>0<>5cd734a294613a0f1556e6bde5f5ada2<>res://.godot/imported/Idle.png-6c35ebc5cf9bb44e937ef575a0d46039.ctex::
+Protect.png::CompressedTexture2D::8206499885008579229::1775772712::1775775469::1::::<><><>0<>0<>ec82ef1ae6b9e90e44aa1f7ee1aa65ac<>res://.godot/imported/Protect.png-dba3f3a26fb37c37d870cb3c58376b29.ctex::
+Run+attack.png::CompressedTexture2D::8802268078054507254::1775772712::1775775469::1::::<><><>0<>0<>aa50ef3ec53da0996642830cf51b265c<>res://.godot/imported/Run+attack.png-6fdd5d2ed824d8e8ea0bd59acc061e72.ctex::
+Run.png::CompressedTexture2D::4925624351354719959::1775772712::1775775469::1::::<><><>0<>0<>290e5e9f1bf09e4e3c3cf62998188798<>res://.godot/imported/Run.png-4d7f9f05a63ce78546349645d8b10fdc.ctex::
+Walk.png::CompressedTexture2D::1857452034909081325::1775772712::1775775469::1::::<><><>0<>0<>13f8443256ddf01e0d4cdd890a2ff778<>res://.godot/imported/Walk.png-6ebde0a02bc226350526ce27116b89d3.ctex::
+::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/::1775775469
+Attack_1.png::CompressedTexture2D::6701408966835376408::1775772712::1775775469::1::::<><><>0<>0<>7cc85431b781ba240d1279f44a146d08<>res://.godot/imported/Attack_1.png-0e595b05d3754df46bb477ecd948d582.ctex::
+Attack_2.png::CompressedTexture2D::5016716811572054768::1775772712::1775775469::1::::<><><>0<>0<>e903ac11c195a95e1b02ba01c2fb5946<>res://.godot/imported/Attack_2.png-d6032dbe8ca62364f26b7ca3878b5fde.ctex::
+Attack_3.png::CompressedTexture2D::1126015657102496702::1775772712::1775775469::1::::<><><>0<>0<>88780da1eb5568739d0ec053c4e20072<>res://.godot/imported/Attack_3.png-2d71161f2c2678a880fc251ede2158e9.ctex::
+Dead.png::CompressedTexture2D::3919311342649766995::1775772712::1775775469::1::::<><><>0<>0<>9410bdaa6c2904e07703cbf320b60cc9<>res://.godot/imported/Dead.png-8e51894abc100ff4c970b03ec41b1be9.ctex::
+Hurt.png::CompressedTexture2D::5352141033213285414::1775772712::1775775469::1::::<><><>0<>0<>4b92c0a5064cb4b5a313821bf77df4a8<>res://.godot/imported/Hurt.png-110f77e34ce685afdabd9c20321484de.ctex::
+Idle.png::CompressedTexture2D::2742302227871642600::1775772712::1775775469::1::::<><><>0<>0<>bb4d55c75bcd594b59d41485c66f6916<>res://.godot/imported/Idle.png-244a3f6983ccd0c40c34684a29730f8a.ctex::
+Protect.png::CompressedTexture2D::2059162384032380822::1775772712::1775775469::1::::<><><>0<>0<>3850163e8de6e5945d7b92d5cc946847<>res://.godot/imported/Protect.png-86f3a1315cbc0721aeb9f28bcd07467e.ctex::
+Run+attack.png::CompressedTexture2D::8958296846230162261::1775772713::1775775469::1::::<><><>0<>0<>b10a21e95470f75b532ddf7e1870552b<>res://.godot/imported/Run+attack.png-fc8cc8b52e52f042a953bcf38635ff50.ctex::
+Run.png::CompressedTexture2D::1662242530067935357::1775772713::1775775469::1::::<><><>0<>0<>88fc3a9c9bc48424a8624f637e40a87e<>res://.godot/imported/Run.png-9ded580018554c72c3adf755ce1735ae.ctex::
+Walk.png::CompressedTexture2D::8323056595366662511::1775772713::1775775469::1::::<><><>0<>0<>72e0b0ab423dfdabca6091046cda7348<>res://.godot/imported/Walk.png-87acf8c3a6548eb575388e39be9b71ab.ctex::
+::res://Assets/Minotaur_1/::1775774832
+Attack.png::CompressedTexture2D::643178847881995015::1775774821::1775774832::1::::<><><>0<>0<>72a4b6a7d71bf15ad26283b6bdad8b73<>res://.godot/imported/Attack.png-ecae369f5900d1cb58ad8f5cc15a2d8e.ctex::
+Dead.png::CompressedTexture2D::2043013427265721095::1775774821::1775774832::1::::<><><>0<>0<>57ea5b18d73730b82c7c621a68667c5a<>res://.godot/imported/Dead.png-bed9a32ef2a2adf0909e462245124433.ctex::
+Hurt.png::CompressedTexture2D::6542327315684774421::1775774821::1775774832::1::::<><><>0<>0<>9a29a8d353b0c2f27def088511cb99b2<>res://.godot/imported/Hurt.png-2b8425b738ceb8f0fad032ca0185d7d8.ctex::
+Idle.png::CompressedTexture2D::654409145535227209::1775774821::1775774832::1::::<><><>0<>0<>7ff8d79e110302286c64dd4725b93547<>res://.godot/imported/Idle.png-aa1701636457ed6e548018c65d355f51.ctex::
+Walk.png::CompressedTexture2D::6987866082000290235::1775774821::1775774832::1::::<><><>0<>0<>dc0ea806a5f435bb15d25ca77552ecfe<>res://.godot/imported/Walk.png-6bf0538ff82e6c10490e72e986fd49f4.ctex::
+::res://Assets/sons/::1776295519
+musicaFundo.mp3::AudioStreamMP3::8519259817223587389::1776295502::1776295519::1::::<><><>0<>0<>376bc60199451baebf2d0874a5c4c24e<>res://.godot/imported/musicaFundo.mp3-760dbd33068fb8b5649dd2332e1cbbc5.mp3str::
+musicholder-sword-sound-260274.mp3::AudioStreamMP3::4102633296716287860::1776295298::1776295417::1::::<><><>0<>0<>3e5079ce73911f10967f61c6b9221dc7<>res://.godot/imported/musicholder-sword-sound-260274.mp3-1838c3e227b06b5b84c6b3bd4063fe94.mp3str::
+::res://atores/::1776293966
+boss.gd::GDScript::3350071064643277829::1776293966::0::1::::<>CharacterBody2D<><>0<>0<><>::
+boss.tscn::PackedScene::9079704002843570148::1776293966::0::1::::<><><>0<>0<><>::uid://bny2gfhmk6htl::::res://atores/boss.gd<>uid://jftcdjj2s440::::res://Assets/Minotaur_1/Attack.png<>uid://4dwermbdb2nj::::res://Assets/Minotaur_1/Dead.png<>uid://c0hff7l5yulu8::::res://Assets/Minotaur_1/Hurt.png<>uid://jlaa1uv5vxf2::::res://Assets/Minotaur_1/Idle.png<>uid://c6s8esima32sl::::res://Assets/Minotaur_1/Walk.png
+inimigo.tscn::PackedScene::2389316925167933421::1776293966::0::1::::<><><>0<>0<><>::uid://tqljluu3jkk6::::res://scripts/inimigo.gd<>uid://dqt0r5gkjloap::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Walk.png<>uid://c2qhhx7d7t4bk::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Attack_1.png<>uid://cdqeufoyrltq3::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Attack_2.png<>uid://bfcnk1q34ik6s::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Idle.png<>uid://ciiu8l4x1fq5c::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Hurt.png<>uid://qbpkwijvgook::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Attack_3.png<>uid://bv3sqq5dnp428::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Dead.png<>uid://xxg5kx8jrco8::::res://Assets/craftpix-net-957123-free-skeleton-pixel-art-sprite-sheets/Skeleton_Warrior/Run.png
+jogador.tscn::PackedScene::4723687519789480306::1776293966::0::1::::<><><>0<>0<><>::uid://cf2ucly6up5d6::::res://scripts/jogador.gd<>uid://ccikrbvlbtgpx::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Attack 1.png<>uid://btds8qnkue5w2::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Attack 2.png<>uid://cecew0hptajq6::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Attack 3.png<>uid://4xfrwcq0rntc::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Dead.png<>uid://4g25pchfpjy4::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Idle.png<>uid://b25vhhc85w2er::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Jump.png<>uid://6cbq185coal1::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Run.png<>uid://vkr6j6chdd2y::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_1/Protect.png
+mundo.tscn::PackedScene::3462961434399326327::1775772713::0::1::::<><><>0<>0<><>::uid://dnft8pr3v1fye::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_2/Idle.png<>uid://cljc6cxvsnpmu::::res://Assets/craftpix-net-889507-free-vampires-locations-battle-background-pack/PNG/4/dead forest.png<>uid://cf2ucly6up5d6::::res://scripts/jogador.gd<>uid://babnx28j20l8h::::res://Assets/inimigo.tscn<>uid://vhy85edalmxv::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_2/Jump.png<>uid://sthx0libdpk8::::res://Assets/craftpix-net-803217-free-knight-character-sprites-pixel-art/Knight_2/Run.png
+::res://prefabs/::1775772713
+hitbox.tscn::PackedScene::1039806411851473452::1775772713::0::1::::<><><>0<>0<><>::uid://cfyplcjdjnpid::::res://scripts/hitbox.gd
+::res://scripts/::1776293966
+hitbox.gd::GDScript::5174261169397051367::1775772713::0::1::::<>Area2D<><>0<>0<><>::
+inimigo.gd::GDScript::1367302641852578339::1776293966::0::1::::<>CharacterBody2D<><>0<>0<><>::
+jogador.gd::GDScript::5180742312647123861::1776293966::0::1::::<>CharacterBody2D<><>0<>0<><>::
+wrap_manager.gd::GDScript::639603192939568459::1775772713::0::1::::<>Node<><>0<>0<><>::
