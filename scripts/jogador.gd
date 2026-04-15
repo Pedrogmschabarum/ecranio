@@ -22,6 +22,7 @@ func _ready() -> void:
 	add_to_group("player")
 	attack_collision.disabled = true
 	attack_area.body_entered.connect(_on_attack_area_body_entered)
+	_atualizar_attack_area_pos()
 
 func _physics_process(delta: float) -> void:
 	# Gravidade
@@ -62,6 +63,7 @@ func _physics_process(delta: float) -> void:
 	if direction:
 		velocity.x = direction * SPEED
 		animation.scale.x = direction
+		facing = sign(direction)
 
 		if is_jumping:
 			animation.play("jump")
@@ -77,14 +79,15 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 	WrapManager.wrap_node(self) 
+	_atualizar_attack_area_pos()
 
-func take_damage(amount: int, enemy_position: Vector2) -> void:
+func take_damage(amount: int, enemy_position: Vector2) -> bool:
 	if not can_take_damage or is_dead:
-		return
+		return false
 
 	if is_blocking:
 		print("Ataque bloqueado!")
-		return
+		return true
 
 	health -= amount
 	can_take_damage = false
@@ -102,11 +105,14 @@ func take_damage(amount: int, enemy_position: Vector2) -> void:
 
 	if health <= 0:
 		die()
-		return
+		return false
 
-	await get_tree().create_timer(DAMAGE_COOLDOWN).timeout
-	can_take_damage = true
-	animation.modulate.a = 1.0
+	var t := get_tree().create_timer(DAMAGE_COOLDOWN)
+	t.timeout.connect(func() -> void:
+		can_take_damage = true
+		animation.modulate.a = 1.0
+	)
+	return false
 	
 	
 func is_player_dead():
@@ -129,6 +135,7 @@ func attack() -> void:
 	velocity.x = 0.0
 	animation.play("attack1")
 
+	_atualizar_attack_area_pos()
 	attack_collision.disabled = false
 	await get_tree().create_timer(0.15).timeout
 	attack_collision.disabled = true
@@ -141,3 +148,8 @@ func _on_attack_area_body_entered(body: Node) -> void:
 		body.take_damage(1, global_position)
 	
 #endregion
+
+func _atualizar_attack_area_pos() -> void:
+	# Deixa o alcance do ataque "na frente" do player,
+	# permitindo acertar sem necessariamente entrar no alcance do inimigo.
+	attack_area.position.x = 52.0 * facing
