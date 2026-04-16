@@ -2,3 +2,6 @@ res://mundo.tscn
 res://mundo.gd
 res://atores/jogador.tscn
 res://scripts/jogador.gd
+res://boss_ui.gd
+res://atores/boss.tscn
+res://atores/boss.gd

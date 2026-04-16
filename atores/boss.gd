@@ -144,7 +144,7 @@ func die() -> void:
 	var world = get_tree().get_first_node_in_group("world")
 
 	if world and world.has_method("add_score"):
-		world.add_score(10)
+		world.add_score(25)
 
 	queue_free()
 #region Funcoes de ataque

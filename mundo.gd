@@ -40,21 +40,26 @@ func _iniciar_horda(numero_horda: int) -> void:
 	meta_score_horda = max(1, meta_inicial + (horda_atual - 1) * incremento_meta)
 
 	spawner.score_por_inimigo = score_por_inimigo
-	var intervalo: float = maxf(
-		float(spawn_interval_minimo),
-		float(spawn_interval_inicial) - float(horda_atual - 1) * float(spawn_interval_reducao_por_horda)
-	)
-	spawner.set_spawn_interval(intervalo)
-	spawner.iniciar_horda(meta_score_horda)
-
-	score_label.text = "Score: " + str(score) + " | Horda " + str(horda_atual) + " (" + str(score_horda) + "/" + str(meta_score_horda) + ")"
+	
+	var texto_boss = ""
+	if horda_atual != 0 && horda_atual%3 != 0 :
+		var intervalo: float = maxf(
+			float(spawn_interval_minimo),
+			float(spawn_interval_inicial) - float(horda_atual - 1) * float(spawn_interval_reducao_por_horda)
+		)
+		spawner.set_spawn_interval(intervalo)
+		spawner.iniciar_horda(meta_score_horda)
+	else:
+		texto_boss = " | Boss"
+		_iniciar_boss()
+		
+	score_label.text = "Score: " + str(score) + " | Horda " + str(horda_atual) + texto_boss + " (" + str(score_horda) + "/" + str(meta_score_horda) + ")"
 
 func _on_horda_finalizada() -> void:
 	# Evento de fim de horda (por enquanto só reinicia o ciclo)
-	if (horda_atual < 2) :
+	#if (horda_atual!=0 && horda_atual%2 == 1) :
 		_iniciar_horda(horda_atual + 1)
-	else:
-		_iniciar_boss()
+	#
 	
 
 func _iniciar_boss() -> void:
